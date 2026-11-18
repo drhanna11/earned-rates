@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://earned-rates.github.io/sitemap.xml

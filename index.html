@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Earned Rates — Verified military discounts. Earned through service.</title>
+  <meta name="description" content="Verified military discounts for active-duty members, veterans, retirees, and military families. Official rates only, checked on the brand’s own page.">
+  <link rel="canonical" href="https://earned-rates.github.io/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Earned Rates — Verified military discounts. Earned through service.">
+  <meta property="og:description" content="Verified military discounts for active-duty members, veterans, retirees, and military families. Official rates only, checked on the brand’s own page.">
+  <meta property="og:url" content="https://earned-rates.github.io/">
+  <meta property="og:site_name" content="Earned Rates">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "Organization", "name": "Earned Rates", "url": "https://earned-rates.github.io/", "description": "Verified military discounts. Earned through service.", "slogan": "Verified military discounts. Earned through service."}, {"@type": "WebSite", "name": "Earned Rates", "url": "https://earned-rates.github.io/", "description": "Verified military discounts. Earned through service.", "potentialAction": {"@type": "SearchAction", "target": "https://earned-rates.github.io/?q={search_term_string}", "query-input": "required name=search_term_string"}}]}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="index.html">
+        <span class="wordmark-name">Earned <span>Rates</span></span>
+        <span class="wordmark-tag">Verified military discounts</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+<li><a href="categories/hotels.html">Hotels</a></li>
+<li><a href="categories/car-rental.html">Cars</a></li>
+<li><a href="categories/flights.html">Flights</a></li>
+<li><a href="categories/automotive.html">Auto</a></li>
+<li><a href="categories/electronics.html">Electronics</a></li>
+<li><a href="categories/home.html">Household</a></li>
+<li><a href="categories/education.html">Education</a></li>
+<li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="trust-bar">
+    <div class="trust-bar-inner">
+      <span><strong>Earned through service.</strong> Not a gimmick, and not a coupon dump.</span>
+      <span>We list a deal only after we check the brand’s official page.</span>
+      <span>Last verification pass: November 18, 2026 (Pacific Time).</span>
+    </div>
+  </div>
+  
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="kicker">A directory, not a coupon pile</p>
+      <h1>Military discounts you can verify — because they were earned.</h1>
+      <p class="lede">Earned Rates lists official programs for active-duty members, veterans, retirees, and military families. If we cannot confirm the terms on the brand’s own page, it does not go in the directory.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#directory">Browse verified programs</a>
+        <a class="btn btn-ghost" href="about.html">How we verify</a>
+      </div>
+    </div>
+  </section>
+  
+<form class="filters" id="deal-filters" role="search" style="margin-left:auto;margin-right:auto;width:calc(100% - 2.3rem);">
+  <div class="filters-grid">
+    <div class="field">
+      <label for="q">Search verified programs</label>
+      <input id="q" name="q" type="search" placeholder="Brand, benefit, or keyword" autocomplete="off">
+    </div>
+    <div class="field">
+      <label for="category">Category</label>
+      <select id="category" name="category"><option value="">All categories</option><option value="hotels">Hotels</option><option value="car-rental">Car rental</option><option value="flights">Flights</option><option value="automotive">Automotive</option><option value="electronics">Electronics &amp; retail</option><option value="apparel">Apparel</option><option value="home">Home</option><option value="education">Education</option><option value="wireless">Wireless</option><option value="parks">Parks &amp; recreation</option></select>
+    </div>
+    <div class="field">
+      <label for="eligibility">Eligibility</label>
+      <select id="eligibility" name="eligibility"><option value="">All eligibility</option><option value="active-duty">Active duty</option><option value="veteran">Veteran</option><option value="retiree">Retiree</option><option value="reserve-guard">Guard / Reserve</option><option value="spouse-family">Spouse / family</option><option value="gold-star">Gold Star</option></select>
+    </div>
+    <button class="btn" type="submit">Filter</button>
+  </div>
+  <p class="filter-status" id="filter-status" aria-live="polite"></p>
+</form>
+
+  <main id="main" class="wrap" style="padding-top:0">
+    
+<aside class="partner-slot" id="verified-partner">
+  <p class="kicker">Verified Partner featured slot</p>
+  <h2>Reserved for a confirmed program</h2>
+  <p>This home-page slot is reserved for a flagship travel, electronics, automotive, or education partner. Brands that already offer a verified military discount can sponsor this placement. The listing stays honest: eligibility, official terms, and the date we last checked the brand’s own page. We will not invent a code or a percentage to fill this space.</p>
+  <p><a class="btn btn-outline" href="about.html#partners">How partner listings work</a></p>
+</aside>
+
+    <div class="section-head">
+      <div>
+        <hr class="rule">
+        <h2>Start with the highest-intent guides</h2>
+        <p>These comparison pages are the first things we will keep current. Each one leads with official military rates — not a generic booking engine.</p>
+      </div>
+    </div>
+    <div class="lead-pages"><a class="lead-card" href="compare/military-hotel-discounts.html"><p class="kicker">High-intent travel</p><h3>Hotels compared</h3><p>Compare official military rates at IHG, Hilton, Wyndham, Choice, and Best Western.</p></a><a class="lead-card" href="compare/military-car-rental-discounts.html"><p class="kicker">High-intent travel</p><h3>Car rental compared</h3><p>Start with official Enterprise, Hertz, and Avis military rates before you compare other leisure prices.</p></a><a class="lead-card" href="compare/apple-samsung-dell-military-discounts.html"><p class="kicker">High-ticket retail</p><h3>Apple, Samsung, Dell, HP, Microsoft</h3><p>Verified store programs on high-ticket electronics — official links, with affiliate IDs to add after approval.</p></a><a class="lead-card" href="compare/military-auto-rebates.html"><p class="kicker">High-ticket auto</p><h3>Auto rebates compared</h3><p>Toyota, Hyundai, Jeep, GM, and Ford/Lincoln official programs. Ford’s cash amount varies by ZIP code — we do not invent a national figure.</p></a><a class="lead-card" href="compare/home-depot-vs-lowes-military-discount.html"><p class="kicker">Home</p><h3>Home Depot vs. Lowe’s</h3><p>Both offer 10% year-round. The cap, exclusions, and stacking rules are not the same.</p></a><a class="lead-card" href="compare/military-tuition-discounts.html"><p class="kicker">Education</p><h3>Military tuition rates</h3><p>Official SNHU and University of Phoenix military tuition — among the highest-value clicks on this site.</p></a><a class="lead-card" href="compare/airline-military-benefits.html"><p class="kicker">Travel</p><h3>Airline benefits compared</h3><p>United’s 5% leisure fare, plus bags and boarding at American, Delta, and Southwest.</p></a><a class="lead-card" href="compare/wireless-military-plans.html"><p class="kicker">Retail</p><h3>Wireless plans compared</h3><p>AT&amp;T publishes plan percentages; T-Mobile and Verizon offer official military plans with different verification rules.</p></a><a class="lead-card" href="compare/military-apparel-discounts.html"><p class="kicker">Retail</p><h3>Apparel discounts compared</h3><p>Nike, adidas, Under Armour, lululemon, Carhartt, and Foot Locker — with caps and exclusions written in plain language.</p></a><a class="lead-card" href="bases/norfolk-naval-station.html"><p class="kicker">Base template</p><h3>Near Naval Station Norfolk</h3><p>A base-page example: official chain rates near Norfolk, with no invented hotel prices.</p></a></div>
+    <div class="section-head" style="margin-top:2.2rem">
+      <div>
+        <hr class="rule">
+        <h2>Browse by category</h2>
+        <p>Travel, vehicles, electronics, home, school, and wireless — the categories with the most useful, bookable programs.</p>
+      </div>
+    </div>
+    <div class="cat-grid"><a class="cat-tile" href="categories/hotels.html"><h3>Hotels</h3><p>Military and government leisure rates at major chains.</p></a><a class="cat-tile" href="categories/car-rental.html"><h3>Car rental</h3><p>Official leisure and government rental programs.</p></a><a class="cat-tile" href="categories/flights.html"><h3>Flights</h3><p>Airline military fares, bags, and boarding benefits.</p></a><a class="cat-tile" href="categories/automotive.html"><h3>Automotive</h3><p>Manufacturer rebates on new vehicles.</p></a><a class="cat-tile" href="categories/electronics.html"><h3>Electronics &amp; retail</h3><p>Verified store programs for service members.</p></a><a class="cat-tile" href="categories/apparel.html"><h3>Apparel</h3><p>Official military apparel programs, including caps and exclusions.</p></a><a class="cat-tile" href="categories/home.html"><h3>Home</h3><p>Year-round home-improvement military discounts.</p></a><a class="cat-tile" href="categories/education.html"><h3>Education</h3><p>Military tuition rates at participating schools.</p></a><a class="cat-tile" href="categories/wireless.html"><h3>Wireless</h3><p>Carrier plans for military families.</p></a><a class="cat-tile" href="categories/parks.html"><h3>Parks &amp; recreation</h3><p>Official federal military park passes — an earned benefit, not a coupon.</p></a></div>
+    <div class="section-head" id="directory" style="margin-top:2.2rem">
+      <div>
+        <hr class="rule">
+        <h2>Verified programs</h2>
+        <p>Every card below was checked against an official brand page on November 18, 2026. Filter by category or eligibility, or search by brand.</p>
+      </div>
+    </div>
+    <div class="card-grid" id="deal-grid">
+      
+<article class="deal-card is-featured" data-deal="snhu" data-category="education" data-eligibility="active-duty reserve-guard spouse-family" data-search="Southern New Hampshire University Military online tuition rates Online undergraduate rate of $250 per credit hour ($750 per course; $7,500 for 30 credits) and online graduate rate of $470 per credit hour ($1,410 per course; $7,050 for 15 credits) for eligible service members and spouses, versus standard online rates of $354 and $659 per credit hour. Rates are effective as of June 2026, per SNHU. U.S. service members, both full and part time (Active Duty, National Guard, Selected Reserve), and the spouses of those on active duty Contact SNHU Military Admission or the Military Benefits team and confirm eligibility for the military tuition rate. SNHU also works with TA, GI Bill benefits, and related programs. Discounts do not apply to books or additional fees. Students receiving this rate are not eligible for additional SNHU tuition discounts. Confirm the live rate for your program. High-intent education page and a priority direct-partnership target. Education">
+  <div class="deal-card-top">
+    <p class="deal-brand">Southern New Hampshire University</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military online tuition rates</h3>
+  <p class="discount-callout">Online undergraduate rate of $250 per credit hour ($750 per course; $7,500 for 30 credits) and online graduate rate of $470 per credit hour ($1,410 per course; $7,050 for 15 credits) for eligible service members and spouses, versus standard online rates of $354 and $659 per credit hour. Rates are effective as of June 2026, per SNHU.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. service members, both full and part time (Active Duty, National Guard, Selected Reserve), and the spouses of those on active duty</p>
+  <p class="how"><strong>How to verify.</strong> Contact SNHU Military Admission or the Military Benefits team and confirm eligibility for the military tuition rate. SNHU also works with TA, GI Bill benefits, and related programs.</p>
+  <p class="how"><strong>Read the terms.</strong> Discounts do not apply to books or additional fees. Students receiving this rate are not eligible for additional SNHU tuition discounts. Confirm the live rate for your program. High-intent education page and a priority direct-partnership target.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.snhu.edu/student-experience/military-student-experience/military-discounts-and-partnerships" rel="noopener sponsored"> See official military tuition rates</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="hp" data-category="electronics" data-eligibility="active-duty veteran spouse-family" data-search="HP HP Frontline Heroes Store Exclusive savings of up to 40% for eligible members of the military community and other frontline groups listed in HP’s terms Military and veterans and their families who reside in the United States (the store also serves healthcare workers and first responders) Verify with ID.me using a designated group affiliation, then shop the official HP Frontline Heroes Store. Returning members can sign in without repeating verification. A valid ID.me account with an eligible affiliation is required. The “up to 40%” figure is HP’s published ceiling; actual savings vary by product. This is a high-ticket official store and a priority affiliate target (HP Store Affiliate Program on CJ). Electronics &amp; retail">
+  <div class="deal-card-top">
+    <p class="deal-brand">HP</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">HP Frontline Heroes Store</h3>
+  <p class="discount-callout">Exclusive savings of up to 40% for eligible members of the military community and other frontline groups listed in HP’s terms</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Military and veterans and their families who reside in the United States (the store also serves healthcare workers and first responders)</p>
+  <p class="how"><strong>How to verify.</strong> Verify with ID.me using a designated group affiliation, then shop the official HP Frontline Heroes Store. Returning members can sign in without repeating verification.</p>
+  <p class="how"><strong>Read the terms.</strong> A valid ID.me account with an eligible affiliation is required. The “up to 40%” figure is HP’s published ceiling; actual savings vary by product. This is a high-ticket official store and a priority affiliate target (HP Store Affiliate Program on CJ).</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.hp.com/us-en/shop/cv/hp-frontline-heroes" rel="noopener sponsored"> Verify and shop the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="phoenix" data-category="education" data-eligibility="active-duty reserve-guard veteran spouse-family" data-search="University of Phoenix Military tuition rates for service members Undergraduate certificates, associate, and bachelor’s tuition of $750 per course ($250 per credit hour) for eligible service members. A $180 resource fee may be waived for eligible undergraduate students using Department of Defense Tuition Assistance. Military-affiliated students including service members; veterans may use GI Bill education benefits. Active and Reserve members and their families are directed to speak with their ESO or approved installation staff before enrolling. Start on the official University of Phoenix military page. Active service members should talk with their Education Services Officer first, then review the military tuition rates published by the university. Page last updated by the university on November 2, 2026. Typical courses are 3 credits but can range from 1–6. Costs do not include transfer-credit or scholarship savings. Veterans should confirm current GI Bill use with the VA and the school. High-intent education page and a priority direct-partnership target. Education">
+  <div class="deal-card-top">
+    <p class="deal-brand">University of Phoenix</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military tuition rates for service members</h3>
+  <p class="discount-callout">Undergraduate certificates, associate, and bachelor’s tuition of $750 per course ($250 per credit hour) for eligible service members. A $180 resource fee may be waived for eligible undergraduate students using Department of Defense Tuition Assistance.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Military-affiliated students including service members; veterans may use GI Bill education benefits. Active and Reserve members and their families are directed to speak with their ESO or approved installation staff before enrolling.</p>
+  <p class="how"><strong>How to verify.</strong> Start on the official University of Phoenix military page. Active service members should talk with their Education Services Officer first, then review the military tuition rates published by the university.</p>
+  <p class="how"><strong>Read the terms.</strong> Page last updated by the university on November 2, 2026. Typical courses are 3 credits but can range from 1–6. Costs do not include transfer-credit or scholarship savings. Veterans should confirm current GI Bill use with the VA and the school. High-intent education page and a priority direct-partnership target.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.phoenix.edu/military.html" rel="noopener sponsored"> See official military tuition rates</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="dell" data-category="electronics" data-eligibility="active-duty veteran retiree" data-search="Dell Dell Heroes / Military Discount Exclusive member discounts on eligible PCs and electronics on Dell.com. Dell’s official Heroes page does not publish a single percentage. Active-duty U.S. military members, veterans, and retirees who complete SheerID verification Create or sign in to a Dell account, register for Dell Rewards, and verify military status with SheerID from the account membership section. The discount is then applied automatically to eligible products at checkout on Dell.com. Valid only on Dell.com, not at other retailers. Up to two eligible products per transaction, and up to two transactions per year per eligible customer. Can be combined with select offers but not stacked with other Dell coupons. Some PCs, electronics, accessories, warranties, gift cards, clearance, and limited-quantity deals are excluded. Electronics &amp; retail">
+  <div class="deal-card-top">
+    <p class="deal-brand">Dell</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Dell Heroes / Military Discount</h3>
+  <p class="discount-callout">Exclusive member discounts on eligible PCs and electronics on Dell.com. Dell’s official Heroes page does not publish a single percentage.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active-duty U.S. military members, veterans, and retirees who complete SheerID verification</p>
+  <p class="how"><strong>How to verify.</strong> Create or sign in to a Dell account, register for Dell Rewards, and verify military status with SheerID from the account membership section. The discount is then applied automatically to eligible products at checkout on Dell.com.</p>
+  <p class="how"><strong>Read the terms.</strong> Valid only on Dell.com, not at other retailers. Up to two eligible products per transaction, and up to two transactions per year per eligible customer. Can be combined with select offers but not stacked with other Dell coupons. Some PCs, electronics, accessories, warranties, gift cards, clearance, and limited-quantity deals are excluded.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.dell.com/en-us/shop/member/lp/heroes" rel="noopener sponsored"> Verify and shop the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="apple" data-category="electronics" data-eligibility="active-duty veteran reserve-guard spouse-family" data-search="Apple Veterans and Military Purchase Program 10% off Apple products and accessories in the official Veterans and Military Store Current and Veteran members of the U.S. Military, National Guard, and Reserve, plus immediate family members who reside in the same household Verify veteran or active military status with ID.me, then shop the official Apple Veterans and Military Store. Personal use only; not for resale. Official footnote: ZEISS Optical Inserts–Prescription are excluded. Apple Card Monthly Installments and Apple Upgrade are not available as payment types for this offer. Purchases at a regular Apple Store or the regular Apple Online Store are not eligible for this storefront’s discounted pricing. Electronics &amp; retail">
+  <div class="deal-card-top">
+    <p class="deal-brand">Apple</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Veterans and Military Purchase Program</h3>
+  <p class="discount-callout">10% off Apple products and accessories in the official Veterans and Military Store</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Current and Veteran members of the U.S. Military, National Guard, and Reserve, plus immediate family members who reside in the same household</p>
+  <p class="how"><strong>How to verify.</strong> Verify veteran or active military status with ID.me, then shop the official Apple Veterans and Military Store.</p>
+  <p class="how"><strong>Read the terms.</strong> Personal use only; not for resale. Official footnote: ZEISS Optical Inserts–Prescription are excluded. Apple Card Monthly Installments and Apple Upgrade are not available as payment types for this offer. Purchases at a regular Apple Store or the regular Apple Online Store are not eligible for this storefront’s discounted pricing.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.apple.com/shop/browse/home/veterans_military" rel="noopener sponsored"> Verify and shop the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="ihg" data-category="hotels" data-eligibility="active-duty veteran retiree spouse-family" data-search="IHG Hotels &amp; Resorts Military Appreciation Rate A percentage off the Best Flexible Rate at participating hotels, with a minimum of 5% available at IHG hotels overall U.S. and Canadian active duty, veterans, retired military, and family members with valid ID Book the military rate for leisure travel. Bring a valid military or veteran ID to check-in. Leisure travel only. Discount varies by hotel and is subject to availability, blackout dates, and prior sale. Not available at IHG Army Hotels. Rooms are limited. Deposit and cancellation follow the hotel’s policy. Book online or call 1-877-834-3613. Hotels">
+  <div class="deal-card-top">
+    <p class="deal-brand">IHG Hotels &amp; Resorts</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military Appreciation Rate</h3>
+  <p class="discount-callout">A percentage off the Best Flexible Rate at participating hotels, with a minimum of 5% available at IHG hotels overall</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. and Canadian active duty, veterans, retired military, and family members with valid ID</p>
+  <p class="how"><strong>How to verify.</strong> Book the military rate for leisure travel. Bring a valid military or veteran ID to check-in.</p>
+  <p class="how"><strong>Read the terms.</strong> Leisure travel only. Discount varies by hotel and is subject to availability, blackout dates, and prior sale. Not available at IHG Army Hotels. Rooms are limited. Deposit and cancellation follow the hotel’s policy. Book online or call 1-877-834-3613.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.ihg.com/content/us/en/deals/hotel-offers/government/military-leisure-rate" rel="noopener sponsored"> Book the official military rate</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="choice" data-category="hotels" data-eligibility="active-duty veteran spouse-family" data-search="Choice Hotels Military/Veteran Leisure Rate A special leisure rate at participating hotels. Choice does not publish a single percentage on its program page. Military personnel, veterans, their dependents, and members of several government/military-oriented associations You must be a Choice Privileges member. Select the Military/Veteran leisure special rate when you search. An eligible party must occupy the room. Bring ID as required at check-in. Rate is subject to availability. Choice also offers a separate Government/Military rate for official business travel. Active-duty members, veterans, and military spouses may also be eligible for a limited-time Gold Elite status after updating military status on the account. Hotels">
+  <div class="deal-card-top">
+    <p class="deal-brand">Choice Hotels</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military/Veteran Leisure Rate</h3>
+  <p class="discount-callout">A special leisure rate at participating hotels. Choice does not publish a single percentage on its program page.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Military personnel, veterans, their dependents, and members of several government/military-oriented associations</p>
+  <p class="how"><strong>How to verify.</strong> You must be a Choice Privileges member. Select the Military/Veteran leisure special rate when you search. An eligible party must occupy the room. Bring ID as required at check-in.</p>
+  <p class="how"><strong>Read the terms.</strong> Rate is subject to availability. Choice also offers a separate Government/Military rate for official business travel. Active-duty members, veterans, and military spouses may also be eligible for a limited-time Gold Elite status after updating military status on the account.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.choicehotels.com/en-us/deals/government-and-military-rates" rel="noopener sponsored"> Book the official military rate</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="samsung" data-category="electronics" data-eligibility="active-duty veteran retiree" data-search="Samsung Samsung Offer Program — Military Exclusive savings up to 30% off, which Samsung says can be combined with public and seasonal offers. The amount of savings differs across product lines. Active military members (including those with a .mil email), veterans, and retired personnel Create a Samsung Account, then verify through ID.me (or, as Samsung also notes, through a benefits provider such as GovX or WeSalute). Purchase limits: up to two products per product category, per email and/or shipping address, in any 12-month period, with higher limits on some accessory categories. Samsung.com sign-in is required. Electronics &amp; retail">
+  <div class="deal-card-top">
+    <p class="deal-brand">Samsung</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Samsung Offer Program — Military</h3>
+  <p class="discount-callout">Exclusive savings up to 30% off, which Samsung says can be combined with public and seasonal offers. The amount of savings differs across product lines.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active military members (including those with a .mil email), veterans, and retired personnel</p>
+  <p class="how"><strong>How to verify.</strong> Create a Samsung Account, then verify through ID.me (or, as Samsung also notes, through a benefits provider such as GovX or WeSalute).</p>
+  <p class="how"><strong>Read the terms.</strong> Purchase limits: up to two products per product category, per email and/or shipping address, in any 12-month period, with higher limits on some accessory categories. Samsung.com sign-in is required.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.samsung.com/us/shop/offer-program/military/" rel="noopener sponsored"> Verify and shop the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="hilton" data-category="hotels" data-eligibility="active-duty retiree spouse-family" data-search="Hilton Government &amp; Military Rates U.S. government and military per diem rates, plus a discounted Military Family Rate for leisure stays. Hilton does not publish a single percentage on its program page. Guests with valid government ID for per diem; active and retired military and their families for the leisure Military Family Rate Search Hilton’s official government &amp; military rates page (you can search by military base). Show government or military identification at check-in. The program page does not publish a chain-wide percentage for the leisure rate. Availability and the exact rate are shown at booking. Conrad Hilton was a U.S. Army veteran; Hilton presents this as a long-running government and military program. Hotels">
+  <div class="deal-card-top">
+    <p class="deal-brand">Hilton</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Government &amp; Military Rates</h3>
+  <p class="discount-callout">U.S. government and military per diem rates, plus a discounted Military Family Rate for leisure stays. Hilton does not publish a single percentage on its program page.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Guests with valid government ID for per diem; active and retired military and their families for the leisure Military Family Rate</p>
+  <p class="how"><strong>How to verify.</strong> Search Hilton’s official government &amp; military rates page (you can search by military base). Show government or military identification at check-in.</p>
+  <p class="how"><strong>Read the terms.</strong> The program page does not publish a chain-wide percentage for the leisure rate. Availability and the exact rate are shown at booking. Conrad Hilton was a U.S. Army veteran; Hilton presents this as a long-running government and military program.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.hilton.com/en/p/government-military-rates/" rel="noopener sponsored"> Book the official military rate</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="lowes" data-category="home" data-eligibility="active-duty veteran spouse-family" data-search="Lowe&#x27;s Everyday Military Discount 10% off eligible full-price purchases, with no annual maximum stated on the official program page Anyone currently serving in, or a veteran of, the U.S. Army, Marine Corps, Navy, Air Force, Coast Guard, Space Force, NOAA, USPHS, or National Guard, plus the registered service member’s enrolled and verified spouse (spouse needs a separate MyLowe’s Rewards account) Enroll at Lowes.com/military/validation: create or sign in to a personal Lowe’s account and verify through ID.me. Online, the discount applies at checkout when you are signed in. In store, be prepared to show acceptable photo ID as listed on the official page. Dishonorably discharged veterans are not eligible. The offer is non-transferable. It cannot be used on sale items or with other discounts (including Lowest Price Guarantee / Price Promise, the Lowe’s Credit 5% Off Every Day discount, volume or special pricing, and manager adjustments). It cannot be applied to major appliances (including related accessories and parts), commodities such as electrical cable and wire, dimensional lumber, plywood and OSB, gift cards, previous purchases, fees, installations, or other services (rentals, labor, delivery, shipping, extended protection plans). Digitally verified military program customers are automatically upgraded to Silver status in MyLowe’s Rewards. Terms recorded from Lowe’s official page on November 18, 2026. A direct fetch was blocked (HTTP 403); we used the official page’s published text as indexed that day. Home">
+  <div class="deal-card-top">
+    <p class="deal-brand">Lowe&#x27;s</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Everyday Military Discount</h3>
+  <p class="discount-callout">10% off eligible full-price purchases, with no annual maximum stated on the official program page</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Anyone currently serving in, or a veteran of, the U.S. Army, Marine Corps, Navy, Air Force, Coast Guard, Space Force, NOAA, USPHS, or National Guard, plus the registered service member’s enrolled and verified spouse (spouse needs a separate MyLowe’s Rewards account)</p>
+  <p class="how"><strong>How to verify.</strong> Enroll at Lowes.com/military/validation: create or sign in to a personal Lowe’s account and verify through ID.me. Online, the discount applies at checkout when you are signed in. In store, be prepared to show acceptable photo ID as listed on the official page.</p>
+  <p class="how"><strong>Read the terms.</strong> Dishonorably discharged veterans are not eligible. The offer is non-transferable. It cannot be used on sale items or with other discounts (including Lowest Price Guarantee / Price Promise, the Lowe’s Credit 5% Off Every Day discount, volume or special pricing, and manager adjustments). It cannot be applied to major appliances (including related accessories and parts), commodities such as electrical cable and wire, dimensional lumber, plywood and OSB, gift cards, previous purchases, fees, installations, or other services (rentals, labor, delivery, shipping, extended protection plans). Digitally verified military program customers are automatically upgraded to Silver status in MyLowe’s Rewards. Terms recorded from Lowe’s official page on November 18, 2026. A direct fetch was blocked (HTTP 403); we used the official page’s published text as indexed that day.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.lowes.com/l/about/honor-our-military" rel="noopener sponsored"> Enroll on the official site</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="homedepot" data-category="home" data-eligibility="active-duty reserve-guard veteran retiree spouse-family gold-star" data-search="The Home Depot Military Discount 10% off eligible in-stock purchases, with a $400 maximum annual discount that resets each calendar year Active and reservist members, veterans, and retirees of the U.S. Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force, NOAA, USPHS, and National Guard; the current spouse of an eligible service member; and Gold Star spouses Create or sign in to a personal Home Depot account and verify military status with ID.me. In store, scan the Virtual ID in The Home Depot app or enter the registered phone number. Online, sign in and the discount applies to eligible cart items. Not eligible: non-spousal dependents, dishonorably discharged veterans, non-military members, auxiliary members, and civilian employees of the military. Exclusions include, but are not limited to, some commodity products (including lumber, wire, and building materials), value-priced merchandise, appliances, special-order items, tool rental fees, labor items, gift cards, and services including freight and delivery. Terms recorded from Home Depot’s official military page on November 18, 2026. A direct fetch of that URL was blocked (HTTP 403) from our publishing environment; we used the official page’s published text as indexed that day. Re-check on the official page before you shop. Home">
+  <div class="deal-card-top">
+    <p class="deal-brand">The Home Depot</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military Discount</h3>
+  <p class="discount-callout">10% off eligible in-stock purchases, with a $400 maximum annual discount that resets each calendar year</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span><span class="pill">Gold Star</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active and reservist members, veterans, and retirees of the U.S. Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force, NOAA, USPHS, and National Guard; the current spouse of an eligible service member; and Gold Star spouses</p>
+  <p class="how"><strong>How to verify.</strong> Create or sign in to a personal Home Depot account and verify military status with ID.me. In store, scan the Virtual ID in The Home Depot app or enter the registered phone number. Online, sign in and the discount applies to eligible cart items.</p>
+  <p class="how"><strong>Read the terms.</strong> Not eligible: non-spousal dependents, dishonorably discharged veterans, non-military members, auxiliary members, and civilian employees of the military. Exclusions include, but are not limited to, some commodity products (including lumber, wire, and building materials), value-priced merchandise, appliances, special-order items, tool rental fees, labor items, gift cards, and services including freight and delivery. Terms recorded from Home Depot’s official military page on November 18, 2026. A direct fetch of that URL was blocked (HTTP 403) from our publishing environment; we used the official page’s published text as indexed that day. Re-check on the official page before you shop.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.homedepot.com/c/military" rel="noopener sponsored"> Enroll on the official site</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="microsoft" data-category="electronics" data-eligibility="active-duty veteran retiree spouse-family" data-search="Microsoft Store Military and veteran discount Up to 10% off select physical consumer products from the Microsoft Store Active, former, and retired military members, and their immediate families Check eligibility with the email address on your personal Microsoft account. When you are signed in, the better of the military discount or a sale price is applied automatically on eligible physical products. U.S. Microsoft Store online only, personal use. Not combinable with other sales — the deeper price is used. Excludes Xbox consoles, games, and accessories; Surface for Business; personalized products; digital goods and subscriptions; Office software; Windows; gift cards; and services such as Microsoft 365, Game Pass, and Skype. Terms: https://www.microsoft.com/en-us/store/b/special-discount-terms Electronics &amp; retail">
+  <div class="deal-card-top">
+    <p class="deal-brand">Microsoft Store</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military and veteran discount</h3>
+  <p class="discount-callout">Up to 10% off select physical consumer products from the Microsoft Store</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active, former, and retired military members, and their immediate families</p>
+  <p class="how"><strong>How to verify.</strong> Check eligibility with the email address on your personal Microsoft account. When you are signed in, the better of the military discount or a sale price is applied automatically on eligible physical products.</p>
+  <p class="how"><strong>Read the terms.</strong> U.S. Microsoft Store online only, personal use. Not combinable with other sales — the deeper price is used. Excludes Xbox consoles, games, and accessories; Surface for Business; personalized products; digital goods and subscriptions; Office software; Windows; gift cards; and services such as Microsoft 365, Game Pass, and Skype. Terms: https://www.microsoft.com/en-us/store/b/special-discount-terms</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.microsoft.com/en-us/store/b/military" rel="noopener sponsored"> Verify and shop the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="wyndham" data-category="hotels" data-eligibility="active-duty veteran retiree reserve-guard spouse-family" data-search="Wyndham Hotels &amp; Resorts Military Appreciation Rate At least 15% off the property’s Standard Rate at participating U.S. and Canadian hotels U.S. or Canadian active, reserve, veteran, or retired members, and their spouses Book with rate code SML. Show valid military identification at check-in. Wyndham Rewards membership is not required for the rate. Confirming military status can also upgrade eligible members to Gold and add 3,000 bonus points after the first qualifying night. Participating brands are listed in Wyndham’s terms. New bookings only; not for groups. Cannot be combined with other discounts. Blackout dates and room exclusions may apply. Rate is based on double occupancy. Hotels">
+  <div class="deal-card-top">
+    <p class="deal-brand">Wyndham Hotels &amp; Resorts</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military Appreciation Rate</h3>
+  <p class="discount-callout">At least 15% off the property’s Standard Rate at participating U.S. and Canadian hotels</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. or Canadian active, reserve, veteran, or retired members, and their spouses</p>
+  <p class="how"><strong>How to verify.</strong> Book with rate code SML. Show valid military identification at check-in. Wyndham Rewards membership is not required for the rate. Confirming military status can also upgrade eligible members to Gold and add 3,000 bonus points after the first qualifying night.</p>
+  <p class="how"><strong>Read the terms.</strong> Participating brands are listed in Wyndham’s terms. New bookings only; not for groups. Cannot be combined with other discounts. Blackout dates and room exclusions may apply. Rate is based on double occupancy.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.wyndhamhotels.com/wyndham-rewards/military/claim-perks" rel="noopener sponsored"> Book the official military rate</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="gm" data-category="automotive" data-eligibility="active-duty reserve-guard veteran retiree spouse-family" data-search="Chevrolet, Buick, GMC, and Cadillac (GM) GM Military Appreciation Program A special offer on eligible new Chevrolet, Buick, GMC, or Cadillac vehicles. GM’s official program page does not publish a single dollar amount. The offer can be combined with most current offers, with listed exceptions. Active Duty, Reservists, National Guard, all Veterans, and Retirees of the U.S. Army, Navy, Air Force, Marine Corps, and Coast Guard, and their sponsored spouse Create a GM My Account, complete registration on the Vehicle Purchase Program site, and verify through ID.me. Request an authorization number and take it to a participating U.S. GM dealer before delivery. Up to two eligible new, unused vehicles per calendar year. Vehicles must be kept at least six months. Dealer participation is voluntary. Cannot be stacked with GM First Responder, Educator, Family First, Supplier, Dealership Employee, or certain other employee/supplier programs. Program rules revised January 2, 2026. We do not invent a cash amount that GM does not publish on this page. Automotive">
+  <div class="deal-card-top">
+    <p class="deal-brand">Chevrolet, Buick, GMC, and Cadillac (GM)</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">GM Military Appreciation Program</h3>
+  <p class="discount-callout">A special offer on eligible new Chevrolet, Buick, GMC, or Cadillac vehicles. GM’s official program page does not publish a single dollar amount. The offer can be combined with most current offers, with listed exceptions.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active Duty, Reservists, National Guard, all Veterans, and Retirees of the U.S. Army, Navy, Air Force, Marine Corps, and Coast Guard, and their sponsored spouse</p>
+  <p class="how"><strong>How to verify.</strong> Create a GM My Account, complete registration on the Vehicle Purchase Program site, and verify through ID.me. Request an authorization number and take it to a participating U.S. GM dealer before delivery.</p>
+  <p class="how"><strong>Read the terms.</strong> Up to two eligible new, unused vehicles per calendar year. Vehicles must be kept at least six months. Dealer participation is voluntary. Cannot be stacked with GM First Responder, Educator, Family First, Supplier, Dealership Employee, or certain other employee/supplier programs. Program rules revised January 2, 2026. We do not invent a cash amount that GM does not publish on this page.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.gmmilitaryappreciation.com/about-the-discount/" rel="noopener sponsored"> Check official rebate terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="enterprise" data-category="car-rental" data-eligibility="active-duty veteran retiree" data-search="Enterprise Rent-A-Car Military &amp; Government Leisure Discount 5% off base rates for Government Leisure Travel. Official Government Travel uses contracted rates, not this leisure percentage. Current U.S. federal employees, active-duty members, retired employees, and veterans Book through Enterprise’s official military and government discounts page. No military-association membership is required. Military or government identification may be requested at pick-up. Leisure renters must be 21 or older. Official travel may be available from age 18 (a young-driver surcharge may apply). The leisure discount is accepted at Enterprise locations worldwide, according to the official FAQ. USAA members have a separate member offer. Car rental">
+  <div class="deal-card-top">
+    <p class="deal-brand">Enterprise Rent-A-Car</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military &amp; Government Leisure Discount</h3>
+  <p class="discount-callout">5% off base rates for Government Leisure Travel. Official Government Travel uses contracted rates, not this leisure percentage.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Current U.S. federal employees, active-duty members, retired employees, and veterans</p>
+  <p class="how"><strong>How to verify.</strong> Book through Enterprise’s official military and government discounts page. No military-association membership is required. Military or government identification may be requested at pick-up.</p>
+  <p class="how"><strong>Read the terms.</strong> Leisure renters must be 21 or older. Official travel may be available from age 18 (a young-driver surcharge may apply). The leisure discount is accepted at Enterprise locations worldwide, according to the official FAQ. USAA members have a separate member offer.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.enterprise.com/en/car-rental/deals/military-government-rental-discounts.html" rel="noopener sponsored"> Open official military rates</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="underarmour" data-category="apparel" data-eligibility="active-duty retiree veteran spouse-family" data-search="Under Armour Under Armour military and first-responder discount 20% off purchases on UA.com, the UA App, and UA Brand House; 10% at UA Factory House Active Duty Service Members, Retirees, Veterans, Military Spouses, and Military Family Members ID.me; choose Military and First Responder Discount at checkout. Cannot be combined with other promotional codes, sitewide promotions, or gift card purchases. Official footnote: the discount may be greater during promotional timeframes. Under Armour publishes an official affiliate program through Awin — a priority apparel affiliate application. Terms recorded from the official page and starter verification on November 18, 2026. Apparel">
+  <div class="deal-card-top">
+    <p class="deal-brand">Under Armour</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Under Armour military and first-responder discount</h3>
+  <p class="discount-callout">20% off purchases on UA.com, the UA App, and UA Brand House; 10% at UA Factory House</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Retiree</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active Duty Service Members, Retirees, Veterans, Military Spouses, and Military Family Members</p>
+  <p class="how"><strong>How to verify.</strong> ID.me; choose Military and First Responder Discount at checkout.</p>
+  <p class="how"><strong>Read the terms.</strong> Cannot be combined with other promotional codes, sitewide promotions, or gift card purchases. Official footnote: the discount may be greater during promotional timeframes. Under Armour publishes an official affiliate program through Awin — a priority apparel affiliate application. Terms recorded from the official page and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.underarmour.com/en-us/t/troop-id-instructions.html" rel="noopener sponsored"> Verify and shop the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="ford" data-category="automotive" data-eligibility="active-duty retiree veteran reserve-guard spouse-family" data-search="Ford and Lincoln Ford and Lincoln Military Recognition Program An exclusive cash reward toward the purchase or lease of eligible new Ford or Lincoln vehicles. The official program states the amount may vary by market; there is no single national dollar figure on the pages we used. Enter a ZIP code on fordrecognizesu.com to see the current offer. Program FAQ valid January 6, 2026–January 4, 2027. U.S. residents in the Army, Navy, Air Force, Marines, and Coast Guard (the FAQ also discusses Space Force): active duty, including National Guard, reservists serving on active duty, and DEP, plus spouse/surviving spouse and same-household members; retirees (regular, reserve, TERA, medical) plus spouse/surviving spouse and household members; honorably discharged veterans within 24 months of separation. The FAQ also says veterans may qualify for a special regional incentive regardless of separation date — check by ZIP. State Guard is not eligible. Verify with ID.me at fordrecognizesu.com (Find My Offer, then Confirm My ID). Bring the certificate email to the dealer. Maximum five new eligible vehicle purchases or leases per calendar year. The offer can be shared with spouses, surviving spouses, and other U.S.-resident household members who register. No consumer affiliate program was found for this cash reward; it is a Verified Partner candidate. Official FAQ: https://fordrecognizesu.com/military/Home/FAQ Automotive">
+  <div class="deal-card-top">
+    <p class="deal-brand">Ford and Lincoln</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Ford and Lincoln Military Recognition Program</h3>
+  <p class="discount-callout">An exclusive cash reward toward the purchase or lease of eligible new Ford or Lincoln vehicles. The official program states the amount may vary by market; there is no single national dollar figure on the pages we used. Enter a ZIP code on fordrecognizesu.com to see the current offer. Program FAQ valid January 6, 2026–January 4, 2027.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Retiree</span><span class="pill">Veteran</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. residents in the Army, Navy, Air Force, Marines, and Coast Guard (the FAQ also discusses Space Force): active duty, including National Guard, reservists serving on active duty, and DEP, plus spouse/surviving spouse and same-household members; retirees (regular, reserve, TERA, medical) plus spouse/surviving spouse and household members; honorably discharged veterans within 24 months of separation. The FAQ also says veterans may qualify for a special regional incentive regardless of separation date — check by ZIP. State Guard is not eligible.</p>
+  <p class="how"><strong>How to verify.</strong> Verify with ID.me at fordrecognizesu.com (Find My Offer, then Confirm My ID). Bring the certificate email to the dealer.</p>
+  <p class="how"><strong>Read the terms.</strong> Maximum five new eligible vehicle purchases or leases per calendar year. The offer can be shared with spouses, surviving spouses, and other U.S.-resident household members who register. No consumer affiliate program was found for this cash reward; it is a Verified Partner candidate. Official FAQ: https://fordrecognizesu.com/military/Home/FAQ</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.fordrecognizesu.com/military/home/programdetails" rel="noopener sponsored"> See the official offer for your ZIP code</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="hertz" data-category="car-rental" data-eligibility="active-duty" data-search="Hertz Government and Military Leisure Rentals A leisure government discount CDP is pre-populated when you book through Hertz’s official government and military page. Hertz does not publish the percentage. Federal government employees and service members (official travel is for TDY; a separate leisure booking path is provided on the same official page) Use Hertz’s official Government and Military page and choose leisure or official travel as appropriate. The CDP is pre-populated. Bring appropriate government or military ID at pick-up. Official leisure benefits listed on the program page include discounted rates, space-available upgrades, and complimentary Hertz Gold Plus Rewards membership. We do not publish an unofficial CDP number. Car rental">
+  <div class="deal-card-top">
+    <p class="deal-brand">Hertz</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Government and Military Leisure Rentals</h3>
+  <p class="discount-callout">A leisure government discount CDP is pre-populated when you book through Hertz’s official government and military page. Hertz does not publish the percentage.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Federal government employees and service members (official travel is for TDY; a separate leisure booking path is provided on the same official page)</p>
+  <p class="how"><strong>How to verify.</strong> Use Hertz’s official Government and Military page and choose leisure or official travel as appropriate. The CDP is pre-populated. Bring appropriate government or military ID at pick-up.</p>
+  <p class="how"><strong>Read the terms.</strong> Official leisure benefits listed on the program page include discounted rates, space-available upgrades, and complimentary Hertz Gold Plus Rewards membership. We do not publish an unofficial CDP number.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.hertz.com/rentacar/misc/index.jsp?targetPage=governmentandmilitary.xml" rel="noopener sponsored"> Open official military rates</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="hyundai" data-category="automotive" data-eligibility="active-duty reserve-guard veteran retiree spouse-family" data-search="Hyundai Hyundai Military Program $500 bonus toward the purchase or lease of an eligible new Hyundai vehicle. Offer is good January 7, 2026 through December 31, 2026. Customer or spouse who is active duty, reservist/National Guard, veteran, or retired U.S. military (Air Force, Army, Coast Guard, Marine Corps, Navy, National Guard, or Reserves) Verify military status with ID.me before purchase, then work with a local Hyundai dealer. The bonus is applied toward MSRP and is not available as cash. All new Hyundai models, including electrified vehicles, SUVs, and sedans, are listed as eligible. Not available on fleet, service rental, or demo vehicles, and not combinable with Hyundai Circle plan sales or the First Responders Program. On a lease, the rebate goes toward the amount due at signing or capitalized cost reduction; on finance, toward the down payment. Vehicle must be taken out of dealer stock. Automotive">
+  <div class="deal-card-top">
+    <p class="deal-brand">Hyundai</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Hyundai Military Program</h3>
+  <p class="discount-callout">$500 bonus toward the purchase or lease of an eligible new Hyundai vehicle. Offer is good January 7, 2026 through December 31, 2026.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Customer or spouse who is active duty, reservist/National Guard, veteran, or retired U.S. military (Air Force, Army, Coast Guard, Marine Corps, Navy, National Guard, or Reserves)</p>
+  <p class="how"><strong>How to verify.</strong> Verify military status with ID.me before purchase, then work with a local Hyundai dealer. The bonus is applied toward MSRP and is not available as cash.</p>
+  <p class="how"><strong>Read the terms.</strong> All new Hyundai models, including electrified vehicles, SUVs, and sedans, are listed as eligible. Not available on fleet, service rental, or demo vehicles, and not combinable with Hyundai Circle plan sales or the First Responders Program. On a lease, the rebate goes toward the amount due at signing or capitalized cost reduction; on finance, toward the down payment. Vehicle must be taken out of dealer stock.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.hyundaiusa.com/us/en/special-programs/military" rel="noopener sponsored"> Check official rebate terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="jeep" data-category="automotive" data-eligibility="active-duty reserve-guard retiree veteran" data-search="Jeep (Stellantis) Jeep Military Incentive $500 Military Bonus Cash Allowance on select 2026 and 2025 Jeep vehicles Active, Active Reserve, Retired Military, Retired Military Reserve, 100% Disabled Veteran, or an honorably discharged veteran within 12 months of the discharge date Use “Get Authorization Number” (or the disabled-military button) on Jeep’s official incentive page. Present the authorization number to a franchised FCA US LLC dealer in the United States at the time of retail purchase or lease. Jeep’s page lists eligible models as the 2026 Compass, Cherokee, Grand Cherokee, Wrangler ICE (excluding 392), Wrangler ICE 392, Gladiator, Grand Wagoneer, and 2025 Grand Cherokee WL 2-Row (ICE) and 3-Row and Wagoneer S. Confirm the live list before you buy — model eligibility can change. Personnel stationed overseas may have a separate path through Military AutoSource. Surviving spouses of deceased personnel who meet eligibility criteria may also receive the discount, per Jeep’s FAQ. Automotive">
+  <div class="deal-card-top">
+    <p class="deal-brand">Jeep (Stellantis)</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Jeep Military Incentive</h3>
+  <p class="discount-callout">$500 Military Bonus Cash Allowance on select 2026 and 2025 Jeep vehicles</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Retiree</span><span class="pill">Veteran</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active, Active Reserve, Retired Military, Retired Military Reserve, 100% Disabled Veteran, or an honorably discharged veteran within 12 months of the discharge date</p>
+  <p class="how"><strong>How to verify.</strong> Use “Get Authorization Number” (or the disabled-military button) on Jeep’s official incentive page. Present the authorization number to a franchised FCA US LLC dealer in the United States at the time of retail purchase or lease.</p>
+  <p class="how"><strong>Read the terms.</strong> Jeep’s page lists eligible models as the 2026 Compass, Cherokee, Grand Cherokee, Wrangler ICE (excluding 392), Wrangler ICE 392, Gladiator, Grand Wagoneer, and 2025 Grand Cherokee WL 2-Row (ICE) and 3-Row and Wagoneer S. Confirm the live list before you buy — model eligibility can change. Personnel stationed overseas may have a separate path through Military AutoSource. Surviving spouses of deceased personnel who meet eligibility criteria may also receive the discount, per Jeep’s FAQ.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.jeep.com/incentives/military-incentive.html" rel="noopener sponsored"> Check official rebate terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="toyota" data-category="automotive" data-eligibility="active-duty reserve-guard retiree veteran spouse-family gold-star" data-search="Toyota Toyota Military Rebate $500 rebate toward any new Toyota vehicle purchased or leased through a dealer and Toyota Financial Services U.S. military personnel (active-duty and inactive reserve), household members including Gold Star families, U.S. military retirees, and U.S. military veterans within two years of discharge You must be verified. Toyota notes that ID.me verification is not available in Alabama, Florida, Georgia, North Carolina, and South Carolina — follow the official page for the method used in your state. Confirm current eligibility and process on Toyota’s official page before you buy or lease. State exceptions for ID.me are listed by Toyota. Automotive">
+  <div class="deal-card-top">
+    <p class="deal-brand">Toyota</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Toyota Military Rebate</h3>
+  <p class="discount-callout">$500 rebate toward any new Toyota vehicle purchased or leased through a dealer and Toyota Financial Services</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Retiree</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span><span class="pill">Gold Star</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. military personnel (active-duty and inactive reserve), household members including Gold Star families, U.S. military retirees, and U.S. military veterans within two years of discharge</p>
+  <p class="how"><strong>How to verify.</strong> You must be verified. Toyota notes that ID.me verification is not available in Alabama, Florida, Georgia, North Carolina, and South Carolina — follow the official page for the method used in your state.</p>
+  <p class="how"><strong>Read the terms.</strong> Confirm current eligibility and process on Toyota’s official page before you buy or lease. State exceptions for ID.me are listed by Toyota.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.toyota.com/military-rebate/" rel="noopener sponsored"> Check official rebate terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="avis" data-category="car-rental" data-eligibility="active-duty veteran spouse-family" data-search="Avis Military discounts via WeSalute, plus a veteran/military family AWD Avis states that active military, veterans, and their families can receive military discounts when they enroll in WeSalute. Avis’s official coupons page also lists AWD T765700 as up to 25% off base rates for veteran and military family. Active military, veterans, and their families, as stated on Avis’s official coupons and offers page Review the current AWD and WeSalute instructions on Avis’s official offers page. Enter the AWD at the start of booking. Bring ID if the reservation requires it. WeSalute publishes its own “up to 35% off Pay Now” figure on WeSalute’s site. That figure is WeSalute’s claim, not a percentage we independently confirmed on an Avis program homepage. Use Avis’s own current AWD and terms when you book. AWDs must be entered at the beginning of the reservation. Car rental">
+  <div class="deal-card-top">
+    <p class="deal-brand">Avis</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military discounts via WeSalute, plus a veteran/military family AWD</h3>
+  <p class="discount-callout">Avis states that active military, veterans, and their families can receive military discounts when they enroll in WeSalute. Avis’s official coupons page also lists AWD T765700 as up to 25% off base rates for veteran and military family.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active military, veterans, and their families, as stated on Avis’s official coupons and offers page</p>
+  <p class="how"><strong>How to verify.</strong> Review the current AWD and WeSalute instructions on Avis’s official offers page. Enter the AWD at the start of booking. Bring ID if the reservation requires it.</p>
+  <p class="how"><strong>Read the terms.</strong> WeSalute publishes its own “up to 35% off Pay Now” figure on WeSalute’s site. That figure is WeSalute’s claim, not a percentage we independently confirmed on an Avis program homepage. Use Avis’s own current AWD and terms when you book. AWDs must be entered at the beginning of the reservation.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.avis.com/en/offers/us-offers/coupon-codes" rel="noopener sponsored"> Open official Avis military offers</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="adidas" data-category="apparel" data-eligibility="active-duty veteran retiree spouse-family" data-search="adidas adidas Heroes discount The official page is titled as a 30% off Heroes discount, available online, in-store, and at factory outlets after ID.me verification, subject to monthly caps and a long exclusion list Active duty, veterans, retirees, spouses, dependents, and more, as listed on adidas’s official discount-programs page (the same ID.me program also covers other communities) ID.me at online checkout (promo code / Verify with ID.me) after signing into an adidas account. In-store and outlet verification links are on the official page. Online: maximum two discounts per month. In-store and factory outlet: maximum one discount per month, with a unique code after verification. Exclusions include, but are not limited to, select Gazelle, Samba, Campus, SL 72, Spezial, 4D, Ultraboost, Y-3, Pharrell x adidas, Disney, Human Made, limited-edition Originals, select NMD, Stan Smith, Superstar, and adizero, plus Final Sale, gift cards, and Confirmed App purchases. Not valid on prior purchases; not for resale. Terms recorded from the official adidas page and starter verification on November 18, 2026. Apparel">
+  <div class="deal-card-top">
+    <p class="deal-brand">adidas</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">adidas Heroes discount</h3>
+  <p class="discount-callout">The official page is titled as a 30% off Heroes discount, available online, in-store, and at factory outlets after ID.me verification, subject to monthly caps and a long exclusion list</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active duty, veterans, retirees, spouses, dependents, and more, as listed on adidas’s official discount-programs page (the same ID.me program also covers other communities)</p>
+  <p class="how"><strong>How to verify.</strong> ID.me at online checkout (promo code / Verify with ID.me) after signing into an adidas account. In-store and outlet verification links are on the official page.</p>
+  <p class="how"><strong>Read the terms.</strong> Online: maximum two discounts per month. In-store and factory outlet: maximum one discount per month, with a unique code after verification. Exclusions include, but are not limited to, select Gazelle, Samba, Campus, SL 72, Spezial, 4D, Ultraboost, Y-3, Pharrell x adidas, Disney, Human Made, limited-edition Originals, select NMD, Stan Smith, Superstar, and adizero, plus Final Sale, gift cards, and Confirmed App purchases. Not valid on prior purchases; not for resale. Terms recorded from the official adidas page and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.adidas.com/us/discount-programs" rel="noopener sponsored"> Verify and shop the official program</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="nike" data-category="apparel" data-eligibility="active-duty reserve-guard veteran retiree spouse-family" data-search="Nike Nike military discount 10% off most items online and in U.S. Nike stores, applied to the first $500 of a qualified purchase Active, reservist, veteran, and retired U.S. military personnel, and the spouses and dependents of active personnel Online or in the app: SheerID verification, then a single-use promo code at checkout on a Nike Member profile. A new code may be requested once every seven days; the code expires two weeks after issuance. In U.S. Nike stores (not Company Stores): valid military ID at checkout. Not valid on select products including Nike By You, gift cards, select Launch and SNKRS products, and Apple products; other exclusions may apply. Not redeemable on Swoosh.com. Can be combined with free-shipping promo codes only. Not valid at Nike Company Stores. The $500 cap is a frequent source of confusion — it is part of Nike’s official terms. Official terms were confirmed from Nike’s help-page article body on November 18, 2026. Apparel">
+  <div class="deal-card-top">
+    <p class="deal-brand">Nike</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Nike military discount</h3>
+  <p class="discount-callout">10% off most items online and in U.S. Nike stores, applied to the first $500 of a qualified purchase</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Retiree</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active, reservist, veteran, and retired U.S. military personnel, and the spouses and dependents of active personnel</p>
+  <p class="how"><strong>How to verify.</strong> Online or in the app: SheerID verification, then a single-use promo code at checkout on a Nike Member profile. A new code may be requested once every seven days; the code expires two weeks after issuance. In U.S. Nike stores (not Company Stores): valid military ID at checkout.</p>
+  <p class="how"><strong>Read the terms.</strong> Not valid on select products including Nike By You, gift cards, select Launch and SNKRS products, and Apple products; other exclusions may apply. Not redeemable on Swoosh.com. Can be combined with free-shipping promo codes only. Not valid at Nike Company Stores. The $500 cap is a frequent source of confusion — it is part of Nike’s official terms. Official terms were confirmed from Nike’s help-page article body on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.nike.com/help/a/military-discount" rel="noopener sponsored"> Read official Nike terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="att" data-category="wireless" data-eligibility="active-duty reserve-guard veteran spouse-family" data-search="AT&amp;T AT&amp;T Appreciation Savings 10% off AT&amp;T Value 2.0, 15% off Extra 2.0, and 20% off Premium 2.0 plan lines, on up to 10 eligible phone lines. The military member must be the primary account holder. Veterans, active-duty servicemembers, reservists, and military family members (the FAQ also specifies spouses of active-duty military) Complete AT&amp;T’s verification form, or sign up at an AT&amp;T retail store. If more documentation is needed, AT&amp;T may ask you to upload it within 14 days of wireless service activation. Limited-time device and port-in promotions advertised on the same page are separate from the ongoing plan discount and have their own end dates (one bill-credit offer is listed as ending November 30, 2026). Always read the live offer details. AT&amp;T states it is not associated with or endorsed by the U.S. Department of Defense. Wireless">
+  <div class="deal-card-top">
+    <p class="deal-brand">AT&amp;T</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">AT&amp;T Appreciation Savings</h3>
+  <p class="discount-callout">10% off AT&amp;T Value 2.0, 15% off Extra 2.0, and 20% off Premium 2.0 plan lines, on up to 10 eligible phone lines. The military member must be the primary account holder.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Veterans, active-duty servicemembers, reservists, and military family members (the FAQ also specifies spouses of active-duty military)</p>
+  <p class="how"><strong>How to verify.</strong> Complete AT&amp;T’s verification form, or sign up at an AT&amp;T retail store. If more documentation is needed, AT&amp;T may ask you to upload it within 14 days of wireless service activation.</p>
+  <p class="how"><strong>Read the terms.</strong> Limited-time device and port-in promotions advertised on the same page are separate from the ongoing plan discount and have their own end dates (one bill-credit offer is listed as ending November 30, 2026). Always read the live offer details. AT&amp;T states it is not associated with or endorsed by the U.S. Department of Defense.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.att.com/offers/discount-program/military-discount/" rel="noopener sponsored"> See official military plans</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="tmobile" data-category="wireless" data-eligibility="active-duty veteran reserve-guard spouse-family gold-star" data-search="T-Mobile T-Mix with Military Savings Discounted T-Mix plans (Saver, Standard, More, and Loaded) for eligible military customers. T-Mobile’s official page does not publish a single percentage off standard rates. Active-duty military, veterans, National Guard, Reserve, and Gold Star family members. The military member or Gold Star family member must be the primary account holder, and the account must maintain a valid military line. Visit a T-Mobile store or call (855) 623-4373 (existing customers can call 611). Verify eligible status after activation — you have 45 days, or the plan may lose Military Savings at an additional cost of up to $15/line per month. No-credit-check and prepaid customers are not eligible. Government accounts are not eligible; T-Mobile for Business customers may be eligible for up to 12 lines. Common verification documents include a DD214, leave and earnings statements, and orders. For deployed active-duty members, T-Mobile says it will work with a spouse or family member to verify eligibility. Wireless">
+  <div class="deal-card-top">
+    <p class="deal-brand">T-Mobile</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">T-Mix with Military Savings</h3>
+  <p class="discount-callout">Discounted T-Mix plans (Saver, Standard, More, and Loaded) for eligible military customers. T-Mobile’s official page does not publish a single percentage off standard rates.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span><span class="pill">Gold Star</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active-duty military, veterans, National Guard, Reserve, and Gold Star family members. The military member or Gold Star family member must be the primary account holder, and the account must maintain a valid military line.</p>
+  <p class="how"><strong>How to verify.</strong> Visit a T-Mobile store or call (855) 623-4373 (existing customers can call 611). Verify eligible status after activation — you have 45 days, or the plan may lose Military Savings at an additional cost of up to $15/line per month.</p>
+  <p class="how"><strong>Read the terms.</strong> No-credit-check and prepaid customers are not eligible. Government accounts are not eligible; T-Mobile for Business customers may be eligible for up to 12 lines. Common verification documents include a DD214, leave and earnings statements, and orders. For deployed active-duty members, T-Mobile says it will work with a spouse or family member to verify eligibility.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.t-mobile.com/cell-phone-plans/military-discount-plans" rel="noopener sponsored"> See official military plans</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="verizon" data-category="wireless" data-eligibility="active-duty retiree veteran reserve-guard gold-star" data-search="Verizon Verizon military discounts Official military discounts on wireless plans, Fios internet, and 25% off select accessories (online only). Verizon’s military homepage we reviewed does not publish a single percentage off every wireless plan, so we do not invent one. U.S. active duty, retirees, veterans, current or former Guard or reserve, and Gold Star family members Verify military status with ID.me, then review current plan and Fios pricing on Verizon’s official military page. Eligible service members generally keep the discount for life, though Verizon may occasionally ask for re-verification. Verizon will not call to ask for account information. Military business owners may receive discounts on Wireless Business Unlimited plans and Fios Business Internet. Promotional prices shown on the page change; confirm the live rate. Wireless">
+  <div class="deal-card-top">
+    <p class="deal-brand">Verizon</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Verizon military discounts</h3>
+  <p class="discount-callout">Official military discounts on wireless plans, Fios internet, and 25% off select accessories (online only). Verizon’s military homepage we reviewed does not publish a single percentage off every wireless plan, so we do not invent one.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Retiree</span><span class="pill">Veteran</span><span class="pill">Guard / Reserve</span><span class="pill">Gold Star</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. active duty, retirees, veterans, current or former Guard or reserve, and Gold Star family members</p>
+  <p class="how"><strong>How to verify.</strong> Verify military status with ID.me, then review current plan and Fios pricing on Verizon’s official military page.</p>
+  <p class="how"><strong>Read the terms.</strong> Eligible service members generally keep the discount for life, though Verizon may occasionally ask for re-verification. Verizon will not call to ask for account information. Military business owners may receive discounts on Wireless Business Unlimited plans and Fios Business Internet. Promotional prices shown on the page change; confirm the live rate.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.verizon.com/military/" rel="noopener sponsored"> See official military plans</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="carhartt" data-category="apparel" data-eligibility="active-duty veteran" data-search="Carhartt Carhartt ID.me checkout discount 15% off the current order after ID.me validation online; the ID.me account can be reused on future Carhartt orders The official discount-program page describes a 15% ID.me checkout discount but, in the text captured on November 18, 2026, does not itself itemize eligible communities. Confirm the ID.me community list at checkout and on the brand page. ID.me at online checkout. In store: show a validated ID.me eligibility card at checkout. We do not invent a military-only eligibility list from unofficial pages. Community posts sometimes still cite 25%; official captured terms are 15%. Carhartt’s official affiliate program is managed by Impact — a priority apparel application. Terms recorded from the official page and starter verification on November 18, 2026. Apparel">
+  <div class="deal-card-top">
+    <p class="deal-brand">Carhartt</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Carhartt ID.me checkout discount</h3>
+  <p class="discount-callout">15% off the current order after ID.me validation online; the ID.me account can be reused on future Carhartt orders</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span></div>
+  <p class="how"><strong>Who qualifies.</strong> The official discount-program page describes a 15% ID.me checkout discount but, in the text captured on November 18, 2026, does not itself itemize eligible communities. Confirm the ID.me community list at checkout and on the brand page.</p>
+  <p class="how"><strong>How to verify.</strong> ID.me at online checkout. In store: show a validated ID.me eligibility card at checkout.</p>
+  <p class="how"><strong>Read the terms.</strong> We do not invent a military-only eligibility list from unofficial pages. Community posts sometimes still cite 25%; official captured terms are 15%. Carhartt’s official affiliate program is managed by Impact — a priority apparel application. Terms recorded from the official page and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.carhartt.com/discount-program" rel="noopener sponsored"> Verify on the official program page</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="bestwestern" data-category="hotels" data-eligibility="active-duty veteran" data-search="Best Western U.S. Government &amp; Military Discount Discounts at or below per diem at Best Western Hotels &amp; Resorts throughout North America. No single percentage is published. Military personnel and civilian military personnel including veterans; also federal and state government employees with credentials, and other groups listed on the official page Present an official identification card or work orders at check-in. Book via Best Western’s official military discounts page. Terms recorded from Best Western’s official program page on November 18, 2026. A direct fetch of that URL was blocked (HTTP 403) from our publishing environment; we used the official page’s published text as indexed that day. Re-check on the official page before you travel. Some restrictions may apply. Hotels">
+  <div class="deal-card-top">
+    <p class="deal-brand">Best Western</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">U.S. Government &amp; Military Discount</h3>
+  <p class="discount-callout">Discounts at or below per diem at Best Western Hotels &amp; Resorts throughout North America. No single percentage is published.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Military personnel and civilian military personnel including veterans; also federal and state government employees with credentials, and other groups listed on the official page</p>
+  <p class="how"><strong>How to verify.</strong> Present an official identification card or work orders at check-in. Book via Best Western’s official military discounts page.</p>
+  <p class="how"><strong>Read the terms.</strong> Terms recorded from Best Western’s official program page on November 18, 2026. A direct fetch of that URL was blocked (HTTP 403) from our publishing environment; we used the official page’s published text as indexed that day. Re-check on the official page before you travel. Some restrictions may apply.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.bestwestern.com/en_US/offers/hotel-discounts/military-discounts.html" rel="noopener sponsored"> Book the official military rate</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="lululemon" data-category="apparel" data-eligibility="active-duty reserve-guard veteran spouse-family" data-search="lululemon lululemon military discount 15% off purchases online and in-store on lululemon gear, including regular-price, We Made Too Much, and lululemon lab Active military members, same-household spouses and dependents (each must verify separately), reservists, and veterans, as named on the official FAQ SheerID via Get Verified on the official FAQ/program page. Online: sign in to the same lululemon account used to verify and turn the 15% toggle on at checkout. In-store: after online verification, bring a valid ID and ask an educator to apply it. Not valid on lululemon Like New, gift cards, in combination with other promotions, or for gifting or resale. The benefit is good for four years, then re-verification is required. Cannot be applied to previous purchases. The current official rate is 15% (it was higher in earlier years). Terms recorded from the official FAQ and starter verification on November 18, 2026. Apparel">
+  <div class="deal-card-top">
+    <p class="deal-brand">lululemon</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">lululemon military discount</h3>
+  <p class="discount-callout">15% off purchases online and in-store on lululemon gear, including regular-price, We Made Too Much, and lululemon lab</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active military members, same-household spouses and dependents (each must verify separately), reservists, and veterans, as named on the official FAQ</p>
+  <p class="how"><strong>How to verify.</strong> SheerID via Get Verified on the official FAQ/program page. Online: sign in to the same lululemon account used to verify and turn the 15% toggle on at checkout. In-store: after online verification, bring a valid ID and ask an educator to apply it.</p>
+  <p class="how"><strong>Read the terms.</strong> Not valid on lululemon Like New, gift cards, in combination with other promotions, or for gifting or resale. The benefit is good for four years, then re-verification is required. Cannot be applied to previous purchases. The current official rate is 15% (it was higher in earlier years). Terms recorded from the official FAQ and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://shop.lululemon.com/story/military-faq" rel="noopener sponsored"> Read official lululemon terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="united" data-category="flights" data-eligibility="active-duty reserve-guard" data-search="United Airlines Active-Duty Military Leisure Discount and travel benefits 5% off the published base fare on select United and United Express operated flights purchased on united.com or the United app, plus checked-bag and boarding benefits described on the official page Active-duty U.S. Army, Navy, Air Force, Marines, Space Force, and Coast Guard for the 5% leisure discount. Broader bag and boarding benefits also cover academy cadets/midshipmen, USPHS and NOAA commissioned officers, Reserve and National Guard on active orders, and members discharged within 7 days of scheduled travel. Verify active-duty status in your MileagePlus profile, then book on united.com or the app. Eligible flights are marked with a discount applied. The active-duty MileagePlus account holder must be on the itinerary. Flights must originate in the U.S., Guam, Puerto Rico, the U.S. Virgin Islands, or Canada, and be fully operated by United or United Express. Up to nine passengers per itinerary. Basic Economy is not eligible. The discount cannot be combined with other travel discount certificates, discounted fares, or United Vacations discounts. It does not cover government-imposed taxes, fees, or carrier-imposed international surcharges. United Vacations has a separate military travel discount for flight + hotel packages. Flights">
+  <div class="deal-card-top">
+    <p class="deal-brand">United Airlines</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Active-Duty Military Leisure Discount and travel benefits</h3>
+  <p class="discount-callout">5% off the published base fare on select United and United Express operated flights purchased on united.com or the United app, plus checked-bag and boarding benefits described on the official page</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active-duty U.S. Army, Navy, Air Force, Marines, Space Force, and Coast Guard for the 5% leisure discount. Broader bag and boarding benefits also cover academy cadets/midshipmen, USPHS and NOAA commissioned officers, Reserve and National Guard on active orders, and members discharged within 7 days of scheduled travel.</p>
+  <p class="how"><strong>How to verify.</strong> Verify active-duty status in your MileagePlus profile, then book on united.com or the app. Eligible flights are marked with a discount applied. The active-duty MileagePlus account holder must be on the itinerary.</p>
+  <p class="how"><strong>Read the terms.</strong> Flights must originate in the U.S., Guam, Puerto Rico, the U.S. Virgin Islands, or Canada, and be fully operated by United or United Express. Up to nine passengers per itinerary. Basic Economy is not eligible. The discount cannot be combined with other travel discount certificates, discounted fares, or United Vacations discounts. It does not cover government-imposed taxes, fees, or carrier-imposed international surcharges. United Vacations has a separate military travel discount for flight + hotel packages.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.united.com/en/us/fly/company/company-info/military-benefits-and-discounts.html" rel="noopener sponsored"> Read official military benefits</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="geappliances" data-category="home" data-eligibility="active-duty veteran" data-search="GE Appliances GE Appliances military and frontline store Exclusive pricing in a private GE Appliances Store after ID.me verification, on appliances purchased through that store that are $99 or above. The official page captured November 18, 2026, does not state a percentage, so we do not invent one. The official FAQ says members of our U.S. military, nurses, first responders, and others can be verified via ID.me. It does not itemize veteran, retiree, or spouse rules in the captured text. One-time ID.me verification, then sign in to the private GE Appliances Store (the discount is applied automatically in the cart). Not applicable to Monogram brand appliances; other House of Brands products are eligible. The official page includes an affiliate-publisher note (only one publisher is paid, last eligible click); the network name is not stated on the captured page. Terms recorded from the official page and starter verification on November 18, 2026. Home">
+  <div class="deal-card-top">
+    <p class="deal-brand">GE Appliances</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">GE Appliances military and frontline store</h3>
+  <p class="discount-callout">Exclusive pricing in a private GE Appliances Store after ID.me verification, on appliances purchased through that store that are $99 or above. The official page captured November 18, 2026, does not state a percentage, so we do not invent one.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span></div>
+  <p class="how"><strong>Who qualifies.</strong> The official FAQ says members of our U.S. military, nurses, first responders, and others can be verified via ID.me. It does not itemize veteran, retiree, or spouse rules in the captured text.</p>
+  <p class="how"><strong>How to verify.</strong> One-time ID.me verification, then sign in to the private GE Appliances Store (the discount is applied automatically in the cart).</p>
+  <p class="how"><strong>Read the terms.</strong> Not applicable to Monogram brand appliances; other House of Brands products are eligible. The official page includes an affiliate-publisher note (only one publisher is paid, last eligible click); the network name is not stated on the captured page. Terms recorded from the official page and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.geappliances.com/military-discount" rel="noopener sponsored"> Verify on the official store</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="linkedin" data-category="education" data-eligibility="active-duty veteran spouse-family" data-search="LinkedIn Premium Complimentary 12-month LinkedIn Premium (military community offer) One-time complimentary 12-month LinkedIn Premium subscription. After 12 months the subscription ends automatically. Codes are first-come, first-served and the program may reach capacity. An eligible veteran of the U.S. Armed Forces, a spouse of a service member or veteran, or an active-duty service member navigating a near-term job transition, as determined by LinkedIn’s nonprofit partners. Must not have an active LinkedIn Premium subscription at redemption. One promotional offer per eligible subscriber. Through the partner nonprofits listed on LinkedIn’s official FAQ: Student Veterans of America, Hire Heroes USA, and Hire Our Heroes (wording as published on the official page). Eligibility is determined by those partners. The offer is not transferable and may not be sold, shared, or bartered. Do not buy unofficial codes. Related public pages sometimes say “Hiring Our Heroes”; we use the official FAQ’s wording and send you to LinkedIn and the named nonprofits. Do not attach an affiliate link to a free partner-issued subscription. Terms recorded from the official help page and starter verification on November 18, 2026. Education">
+  <div class="deal-card-top">
+    <p class="deal-brand">LinkedIn Premium</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Complimentary 12-month LinkedIn Premium (military community offer)</h3>
+  <p class="discount-callout">One-time complimentary 12-month LinkedIn Premium subscription. After 12 months the subscription ends automatically. Codes are first-come, first-served and the program may reach capacity.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> An eligible veteran of the U.S. Armed Forces, a spouse of a service member or veteran, or an active-duty service member navigating a near-term job transition, as determined by LinkedIn’s nonprofit partners. Must not have an active LinkedIn Premium subscription at redemption. One promotional offer per eligible subscriber.</p>
+  <p class="how"><strong>How to verify.</strong> Through the partner nonprofits listed on LinkedIn’s official FAQ: Student Veterans of America, Hire Heroes USA, and Hire Our Heroes (wording as published on the official page). Eligibility is determined by those partners.</p>
+  <p class="how"><strong>Read the terms.</strong> The offer is not transferable and may not be sold, shared, or bartered. Do not buy unofficial codes. Related public pages sometimes say “Hiring Our Heroes”; we use the official FAQ’s wording and send you to LinkedIn and the named nonprofits. Do not attach an affiliate link to a free partner-issued subscription. Terms recorded from the official help page and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.linkedin.com/help/lms/answer/a518653/linkedin-for-veterans-free-premium-career-subscription-and-eligibility?lang=en-US" rel="noopener sponsored"> Read the official LinkedIn FAQ</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="footlocker" data-category="apparel" data-eligibility="active-duty veteran reserve-guard spouse-family" data-search="Foot Locker Foot Locker military discount 10% off most online and store purchases, limited to four SheerID verifications on a rolling 30-day basis and a $100 maximum military discount per verification Active-duty members, veterans, National Guard members, reservists, and registered dependents of active duty or retiree service members Online: SheerID (select the military discount at payment and complete the form or document upload as required). In store: the official FAQ recommends showing a valid photo or military ID at checkout. Some product exclusions apply. Cannot be combined with other offers or applied to previous purchases. The $100-per-verification cap is easy to miss. Terms recorded from the official FAQ and starter verification on November 18, 2026. Apparel">
+  <div class="deal-card-top">
+    <p class="deal-brand">Foot Locker</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Foot Locker military discount</h3>
+  <p class="discount-callout">10% off most online and store purchases, limited to four SheerID verifications on a rolling 30-day basis and a $100 maximum military discount per verification</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active-duty members, veterans, National Guard members, reservists, and registered dependents of active duty or retiree service members</p>
+  <p class="how"><strong>How to verify.</strong> Online: SheerID (select the military discount at payment and complete the form or document upload as required). In store: the official FAQ recommends showing a valid photo or military ID at checkout.</p>
+  <p class="how"><strong>Read the terms.</strong> Some product exclusions apply. Cannot be combined with other offers or applied to previous purchases. The $100-per-verification cap is easy to miss. Terms recorded from the official FAQ and starter verification on November 18, 2026.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://help.footlocker.com/hc/en-us/articles/360034662813-Military-Discount-FAQ" rel="noopener sponsored"> Read official Foot Locker terms</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="aa" data-category="flights" data-eligibility="active-duty spouse-family" data-search="American Airlines Military fares, bags, and boarding Government or military fares in some markets (call Reservations). Free checked bags for active U.S. military with ID: up to 3 bags, 50 lbs each, on personal/leisure travel; up to 5 bags, 100 lbs each, for active military and/or dependents traveling on orders. Active U.S. military with ID; dependents traveling on orders for the five-bag allowance Call American Reservations for military or government fares. Present a valid active U.S. military ID for bag and boarding benefits. Benefits apply on American marketed and operated itineraries, not partner-operated codeshares. Active-duty military with ID may board in Group 1. American also mentions vacation savings through a WeSalute+ subscription; that path is a third-party membership, not an American published fare percentage. Flights">
+  <div class="deal-card-top">
+    <p class="deal-brand">American Airlines</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military fares, bags, and boarding</h3>
+  <p class="discount-callout">Government or military fares in some markets (call Reservations). Free checked bags for active U.S. military with ID: up to 3 bags, 50 lbs each, on personal/leisure travel; up to 5 bags, 100 lbs each, for active military and/or dependents traveling on orders.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active U.S. military with ID; dependents traveling on orders for the five-bag allowance</p>
+  <p class="how"><strong>How to verify.</strong> Call American Reservations for military or government fares. Present a valid active U.S. military ID for bag and boarding benefits. Benefits apply on American marketed and operated itineraries, not partner-operated codeshares.</p>
+  <p class="how"><strong>Read the terms.</strong> Active-duty military with ID may board in Group 1. American also mentions vacation savings through a WeSalute+ subscription; that path is a third-party membership, not an American published fare percentage.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.aa.com/web/i18n/customer-service/programs-products/military-benefits.html" rel="noopener sponsored"> Read official military benefits</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="delta" data-category="flights" data-eligibility="active-duty" data-search="Delta Air Lines Military baggage allowance and related benefits Free checked bags for active U.S. military: 5 bags on military orders; for personal travel, 2 bags in Delta Main/Comfort (including Basic experiences) and 3 bags in Premium Select, Delta First, and Delta One. Delta’s official page also states there is a military discount on flights and Delta Vacations, but it does not publish a percentage on that baggage page. Active members of the U.S. Marine Corps, Army, Air Force, Space Force, Navy, or Coast Guard Review Delta’s official military baggage page and present required military identification at the airport. Confirm any flight discount at booking; we do not list an unpublished percentage. On orders, bags may be up to 80 linear inches and under 100 lbs as shown in Delta’s baggage key. For leisure, bags may be up to 62 linear inches. Benefits are subject to embargoes and regional weight restrictions and apply to Delta-marketed tickets, including certain partner-operated flights listed on the page (Aeromexico, Air France, KLM, Korean Air, and Virgin Atlantic). Flights">
+  <div class="deal-card-top">
+    <p class="deal-brand">Delta Air Lines</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military baggage allowance and related benefits</h3>
+  <p class="discount-callout">Free checked bags for active U.S. military: 5 bags on military orders; for personal travel, 2 bags in Delta Main/Comfort (including Basic experiences) and 3 bags in Premium Select, Delta First, and Delta One. Delta’s official page also states there is a military discount on flights and Delta Vacations, but it does not publish a percentage on that baggage page.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Active members of the U.S. Marine Corps, Army, Air Force, Space Force, Navy, or Coast Guard</p>
+  <p class="how"><strong>How to verify.</strong> Review Delta’s official military baggage page and present required military identification at the airport. Confirm any flight discount at booking; we do not list an unpublished percentage.</p>
+  <p class="how"><strong>Read the terms.</strong> On orders, bags may be up to 80 linear inches and under 100 lbs as shown in Delta’s baggage key. For leisure, bags may be up to 62 linear inches. Benefits are subject to embargoes and regional weight restrictions and apply to Delta-marketed tickets, including certain partner-operated flights listed on the page (Aeromexico, Air France, KLM, Korean Air, and Virgin Atlantic).</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.delta.com/us/en/baggage/checked-baggage/military-baggage-allowance" rel="noopener sponsored"> Read official military benefits</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card" data-deal="southwest" data-category="flights" data-eligibility="active-duty reserve-guard spouse-family" data-search="Southwest Airlines Military fares, bags, and priority boarding Military fares are offered but are not available on Southwest.com — book by phone or at a ticket counter. Active-duty customers are exempt from the two-piece bag limit and from excess, oversize, and overweight bag charges if no bag exceeds 100 lbs or 80 inches. U.S. military personnel on active duty (including reservists, National Guard, and Coast Guard members with active orders, plus cadets/midshipmen at the U.S. service academies) and their authorized dependents for military fares. Bag and boarding benefits described below are for active-duty members with valid ID. Call 1-800-I-FLY-SWA (1-800-435-9792) or visit a Southwest ticket counter to book a military fare. Present a current, valid Uniformed Services ID at check-in for bag and boarding benefits. Active-duty members with valid Uniformed Services ID are invited to board in the Priority Boarding group, just before Group 1. Dependents traveling without the active-duty member are subject to normal bag charges. No more than 20 checked pieces per ticketed customer. Rapid Rewards points cannot be redeemed to purchase government and military fares. Southwest also refunds personal travel that conflicts with military or government orders, with supporting documentation. Flights">
+  <div class="deal-card-top">
+    <p class="deal-brand">Southwest Airlines</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">Military fares, bags, and priority boarding</h3>
+  <p class="discount-callout">Military fares are offered but are not available on Southwest.com — book by phone or at a ticket counter. Active-duty customers are exempt from the two-piece bag limit and from excess, oversize, and overweight bag charges if no bag exceeds 100 lbs or 80 inches.</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span></div>
+  <p class="how"><strong>Who qualifies.</strong> U.S. military personnel on active duty (including reservists, National Guard, and Coast Guard members with active orders, plus cadets/midshipmen at the U.S. service academies) and their authorized dependents for military fares. Bag and boarding benefits described below are for active-duty members with valid ID.</p>
+  <p class="how"><strong>How to verify.</strong> Call 1-800-I-FLY-SWA (1-800-435-9792) or visit a Southwest ticket counter to book a military fare. Present a current, valid Uniformed Services ID at check-in for bag and boarding benefits.</p>
+  <p class="how"><strong>Read the terms.</strong> Active-duty members with valid Uniformed Services ID are invited to board in the Priority Boarding group, just before Group 1. Dependents traveling without the active-duty member are subject to normal bag charges. No more than 20 checked pieces per ticketed customer. Rapid Rewards points cannot be redeemed to purchase government and military fares. Southwest also refunds personal travel that conflicts with military or government orders, with supporting documentation.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.southwest.com/military-travel/" rel="noopener sponsored"> Read official military benefits</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+
+<article class="deal-card is-featured" data-deal="nps" data-category="parks" data-eligibility="active-duty veteran reserve-guard spouse-family gold-star" data-search="National Park Service America the Beautiful Military Passes Free annual or lifetime pass covering entrance or standard amenity (day-use) fees at lands managed by NPS, BLM, Bureau of Reclamation, USFWS, USFS, and USACE Military Annual Pass: current members of the U.S. Armed Forces and their dependents. Military Lifetime Pass: veterans of the U.S. Armed Forces (including National Guard and Reserves) and Gold Star Families, as defined on the official page. In person: CAC, unexpired DD Form 1173, or Next Generation Dependent ID for the annual pass; veteran DoD ID, VHIC, VA Veteran ID Card, or state ID with veteran designation for the lifetime pass; Gold Star Families use a Gold Star Voucher. Also available via Recreation.gov or the USGS Store. The pass does not cover camping, tours, special recreation permits, reservation fees, organized-group fees, or concession-operated activities. It admits the pass holder plus occupants of a single private non-commercial vehicle, or up to two motorcycles, or the pass holder and three persons 16+ where per-person fees are charged. In-person issuance is free; a digital pass is free on Recreation.gov, or a physical pass can be shipped for a $7.50 fee; USGS Store mail orders charge a $10 processing fee. Official page last updated February 26, 2026; terms recorded November 18, 2026. This is a federal benefit — do not attach an affiliate link. Parks &amp; recreation">
+  <div class="deal-card-top">
+    <p class="deal-brand">National Park Service</p>
+    <span class="badge-verified">Verified on November 18, 2026</span>
+  </div>
+  <h3 class="deal-title">America the Beautiful Military Passes</h3>
+  <p class="discount-callout">Free annual or lifetime pass covering entrance or standard amenity (day-use) fees at lands managed by NPS, BLM, Bureau of Reclamation, USFWS, USFS, and USACE</p>
+  <div class="pills" aria-label="Eligibility"><span class="pill">Active duty</span><span class="pill">Veteran</span><span class="pill">Guard / Reserve</span><span class="pill">Spouse / family</span><span class="pill">Gold Star</span></div>
+  <p class="how"><strong>Who qualifies.</strong> Military Annual Pass: current members of the U.S. Armed Forces and their dependents. Military Lifetime Pass: veterans of the U.S. Armed Forces (including National Guard and Reserves) and Gold Star Families, as defined on the official page.</p>
+  <p class="how"><strong>How to verify.</strong> In person: CAC, unexpired DD Form 1173, or Next Generation Dependent ID for the annual pass; veteran DoD ID, VHIC, VA Veteran ID Card, or state ID with veteran designation for the lifetime pass; Gold Star Families use a Gold Star Voucher. Also available via Recreation.gov or the USGS Store.</p>
+  <p class="how"><strong>Read the terms.</strong> The pass does not cover camping, tours, special recreation permits, reservation fees, organized-group fees, or concession-operated activities. It admits the pass holder plus occupants of a single private non-commercial vehicle, or up to two motorcycles, or the pass holder and three persons 16+ where per-person fees are charged. In-person issuance is free; a digital pass is free on Recreation.gov, or a physical pass can be shipped for a $7.50 fee; USGS Store mail orders charge a $10 processing fee. Official page last updated February 26, 2026; terms recorded November 18, 2026. This is a federal benefit — do not attach an affiliate link.</p>
+  <div class="card-actions">
+    <a class="btn" href="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" rel="noopener sponsored"> Get the official pass</a>
+    <p class="todo-aff">Official link for now. TODO: attach the approved affiliate ID after program acceptance, and only if that path still reaches this official military rate.</p>
+    <p class="disclosure-inline">We may earn a commission from a marked partner link. It does not change the official rate. See our <a href="affiliate-disclosure.html">affiliate disclosure</a>.</p>
+  </div>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h2>Earned Rates</h2>
+        <p>A directory of military discounts we can verify. Built for active-duty members, veterans, retirees, and military families — with respect for the service that earned these benefits.</p>
+      </div>
+      <div>
+        <h3>Directory</h3>
+        <ul>
+          <li><a href="categories/hotels.html">Hotels</a></li>
+          <li><a href="categories/car-rental.html">Car rental</a></li>
+          <li><a href="categories/flights.html">Flights</a></li>
+          <li><a href="categories/automotive.html">Automotive</a></li>
+          <li><a href="categories/electronics.html">Electronics</a></li>
+          <li><a href="categories/apparel.html">Apparel</a></li>
+          <li><a href="categories/home.html">Home</a></li>
+          <li><a href="categories/parks.html">Parks</a></li>
+          <li><a href="categories/education.html">Education</a></li>
+          <li><a href="categories/wireless.html">Wireless</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Trust</h3>
+        <ul>
+          <li><a href="about.html">About and how we verify</a></li>
+          <li><a href="affiliate-disclosure.html">Affiliate disclosure</a></li>
+          <li><a href="guides/how-to-get-this-discount.html">How to get a discount</a></li>
+          <li><a href="guides/how-to-book-military-hotel-rates.html">How to book hotel rates</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>Earned Rates is an independent directory. We are not the U.S. Department of Defense, the Department of Veterans Affairs, or any brand listed here. Brand names are trademarks of their owners. Program terms change; always confirm on the official page and at purchase or check-in.</p>
+      <p>If we later add approved affiliate links, commissions do not change official military rates. Some military or government rates may be non-commissionable; we will still send you to the official rate when that is the benefit you earned.</p>
+      <p>© 2026 Earned Rates.</p>
+    </div>
+  </footer>
+  <script src="js/site.js" defer></script>
+</body>
+</html>

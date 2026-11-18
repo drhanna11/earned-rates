@@ -1,0 +1,557 @@
+[
+  {
+    "id": "wyndham",
+    "brand": "Wyndham Hotels & Resorts",
+    "category": "hotels",
+    "title": "Military Appreciation Rate",
+    "discount": "At least 15% off the property’s Standard Rate at participating U.S. and Canadian hotels",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree",
+      "reserve-guard",
+      "spouse-family"
+    ],
+    "official_url": "https://www.wyndhamhotels.com/wyndham-rewards/military/claim-perks",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "ihg",
+    "brand": "IHG Hotels & Resorts",
+    "category": "hotels",
+    "title": "Military Appreciation Rate",
+    "discount": "A percentage off the Best Flexible Rate at participating hotels, with a minimum of 5% available at IHG hotels overall",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.ihg.com/content/us/en/deals/hotel-offers/government/military-leisure-rate",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "hilton",
+    "brand": "Hilton",
+    "category": "hotels",
+    "title": "Government & Military Rates",
+    "discount": "U.S. government and military per diem rates, plus a discounted Military Family Rate for leisure stays. Hilton does not publish a single percentage on its program page.",
+    "eligibility": [
+      "active-duty",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.hilton.com/en/p/government-military-rates/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "choice",
+    "brand": "Choice Hotels",
+    "category": "hotels",
+    "title": "Military/Veteran Leisure Rate",
+    "discount": "A special leisure rate at participating hotels. Choice does not publish a single percentage on its program page.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.choicehotels.com/en-us/deals/government-and-military-rates",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "bestwestern",
+    "brand": "Best Western",
+    "category": "hotels",
+    "title": "U.S. Government & Military Discount",
+    "discount": "Discounts at or below per diem at Best Western Hotels & Resorts throughout North America. No single percentage is published.",
+    "eligibility": [
+      "active-duty",
+      "veteran"
+    ],
+    "official_url": "https://www.bestwestern.com/en_US/offers/hotel-discounts/military-discounts.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "enterprise",
+    "brand": "Enterprise Rent-A-Car",
+    "category": "car-rental",
+    "title": "Military & Government Leisure Discount",
+    "discount": "5% off base rates for Government Leisure Travel. Official Government Travel uses contracted rates, not this leisure percentage.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree"
+    ],
+    "official_url": "https://www.enterprise.com/en/car-rental/deals/military-government-rental-discounts.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "hertz",
+    "brand": "Hertz",
+    "category": "car-rental",
+    "title": "Government and Military Leisure Rentals",
+    "discount": "A leisure government discount CDP is pre-populated when you book through Hertz’s official government and military page. Hertz does not publish the percentage.",
+    "eligibility": [
+      "active-duty"
+    ],
+    "official_url": "https://www.hertz.com/rentacar/misc/index.jsp?targetPage=governmentandmilitary.xml",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "avis",
+    "brand": "Avis",
+    "category": "car-rental",
+    "title": "Military discounts via WeSalute, plus a veteran/military family AWD",
+    "discount": "Avis states that active military, veterans, and their families can receive military discounts when they enroll in WeSalute. Avis’s official coupons page also lists AWD T765700 as up to 25% off base rates for veteran and military family.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.avis.com/en/offers/us-offers/coupon-codes",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "united",
+    "brand": "United Airlines",
+    "category": "flights",
+    "title": "Active-Duty Military Leisure Discount and travel benefits",
+    "discount": "5% off the published base fare on select United and United Express operated flights purchased on united.com or the United app, plus checked-bag and boarding benefits described on the official page",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard"
+    ],
+    "official_url": "https://www.united.com/en/us/fly/company/company-info/military-benefits-and-discounts.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "aa",
+    "brand": "American Airlines",
+    "category": "flights",
+    "title": "Military fares, bags, and boarding",
+    "discount": "Government or military fares in some markets (call Reservations). Free checked bags for active U.S. military with ID: up to 3 bags, 50 lbs each, on personal/leisure travel; up to 5 bags, 100 lbs each, for active military and/or dependents traveling on orders.",
+    "eligibility": [
+      "active-duty",
+      "spouse-family"
+    ],
+    "official_url": "https://www.aa.com/web/i18n/customer-service/programs-products/military-benefits.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "delta",
+    "brand": "Delta Air Lines",
+    "category": "flights",
+    "title": "Military baggage allowance and related benefits",
+    "discount": "Free checked bags for active U.S. military: 5 bags on military orders; for personal travel, 2 bags in Delta Main/Comfort (including Basic experiences) and 3 bags in Premium Select, Delta First, and Delta One. Delta’s official page also states there is a military discount on flights and Delta Vacations, but it does not publish a percentage on that baggage page.",
+    "eligibility": [
+      "active-duty"
+    ],
+    "official_url": "https://www.delta.com/us/en/baggage/checked-baggage/military-baggage-allowance",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "southwest",
+    "brand": "Southwest Airlines",
+    "category": "flights",
+    "title": "Military fares, bags, and priority boarding",
+    "discount": "Military fares are offered but are not available on Southwest.com — book by phone or at a ticket counter. Active-duty customers are exempt from the two-piece bag limit and from excess, oversize, and overweight bag charges if no bag exceeds 100 lbs or 80 inches.",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "spouse-family"
+    ],
+    "official_url": "https://www.southwest.com/military-travel/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "apple",
+    "brand": "Apple",
+    "category": "electronics",
+    "title": "Veterans and Military Purchase Program",
+    "discount": "10% off Apple products and accessories in the official Veterans and Military Store",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "reserve-guard",
+      "spouse-family"
+    ],
+    "official_url": "https://www.apple.com/shop/browse/home/veterans_military",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "samsung",
+    "brand": "Samsung",
+    "category": "electronics",
+    "title": "Samsung Offer Program — Military",
+    "discount": "Exclusive savings up to 30% off, which Samsung says can be combined with public and seasonal offers. The amount of savings differs across product lines.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree"
+    ],
+    "official_url": "https://www.samsung.com/us/shop/offer-program/military/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "dell",
+    "brand": "Dell",
+    "category": "electronics",
+    "title": "Dell Heroes / Military Discount",
+    "discount": "Exclusive member discounts on eligible PCs and electronics on Dell.com. Dell’s official Heroes page does not publish a single percentage.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree"
+    ],
+    "official_url": "https://www.dell.com/en-us/shop/member/lp/heroes",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "microsoft",
+    "brand": "Microsoft Store",
+    "category": "electronics",
+    "title": "Military and veteran discount",
+    "discount": "Up to 10% off select physical consumer products from the Microsoft Store",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.microsoft.com/en-us/store/b/military",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "hp",
+    "brand": "HP",
+    "category": "electronics",
+    "title": "HP Frontline Heroes Store",
+    "discount": "Exclusive savings of up to 40% for eligible members of the military community and other frontline groups listed in HP’s terms",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.hp.com/us-en/shop/cv/hp-frontline-heroes",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "toyota",
+    "brand": "Toyota",
+    "category": "automotive",
+    "title": "Toyota Military Rebate",
+    "discount": "$500 rebate toward any new Toyota vehicle purchased or leased through a dealer and Toyota Financial Services",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "retiree",
+      "veteran",
+      "spouse-family",
+      "gold-star"
+    ],
+    "official_url": "https://www.toyota.com/military-rebate/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "hyundai",
+    "brand": "Hyundai",
+    "category": "automotive",
+    "title": "Hyundai Military Program",
+    "discount": "$500 bonus toward the purchase or lease of an eligible new Hyundai vehicle. Offer is good January 7, 2026 through December 31, 2026.",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.hyundaiusa.com/us/en/special-programs/military",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "jeep",
+    "brand": "Jeep (Stellantis)",
+    "category": "automotive",
+    "title": "Jeep Military Incentive",
+    "discount": "$500 Military Bonus Cash Allowance on select 2026 and 2025 Jeep vehicles",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "retiree",
+      "veteran"
+    ],
+    "official_url": "https://www.jeep.com/incentives/military-incentive.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "gm",
+    "brand": "Chevrolet, Buick, GMC, and Cadillac (GM)",
+    "category": "automotive",
+    "title": "GM Military Appreciation Program",
+    "discount": "A special offer on eligible new Chevrolet, Buick, GMC, or Cadillac vehicles. GM’s official program page does not publish a single dollar amount. The offer can be combined with most current offers, with listed exceptions.",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.gmmilitaryappreciation.com/about-the-discount/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "ford",
+    "brand": "Ford and Lincoln",
+    "category": "automotive",
+    "title": "Ford and Lincoln Military Recognition Program",
+    "discount": "An exclusive cash reward toward the purchase or lease of eligible new Ford or Lincoln vehicles. The official program states the amount may vary by market; there is no single national dollar figure on the pages we used. Enter a ZIP code on fordrecognizesu.com to see the current offer. Program FAQ valid January 6, 2026–January 4, 2027.",
+    "eligibility": [
+      "active-duty",
+      "retiree",
+      "veteran",
+      "reserve-guard",
+      "spouse-family"
+    ],
+    "official_url": "https://www.fordrecognizesu.com/military/home/programdetails",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "homedepot",
+    "brand": "The Home Depot",
+    "category": "home",
+    "title": "Military Discount",
+    "discount": "10% off eligible in-stock purchases, with a $400 maximum annual discount that resets each calendar year",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "retiree",
+      "spouse-family",
+      "gold-star"
+    ],
+    "official_url": "https://www.homedepot.com/c/military",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "lowes",
+    "brand": "Lowe's",
+    "category": "home",
+    "title": "Everyday Military Discount",
+    "discount": "10% off eligible full-price purchases, with no annual maximum stated on the official program page",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.lowes.com/l/about/honor-our-military",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "snhu",
+    "brand": "Southern New Hampshire University",
+    "category": "education",
+    "title": "Military online tuition rates",
+    "discount": "Online undergraduate rate of $250 per credit hour ($750 per course; $7,500 for 30 credits) and online graduate rate of $470 per credit hour ($1,410 per course; $7,050 for 15 credits) for eligible service members and spouses, versus standard online rates of $354 and $659 per credit hour. Rates are effective as of June 2026, per SNHU.",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "spouse-family"
+    ],
+    "official_url": "https://www.snhu.edu/student-experience/military-student-experience/military-discounts-and-partnerships",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "phoenix",
+    "brand": "University of Phoenix",
+    "category": "education",
+    "title": "Military tuition rates for service members",
+    "discount": "Undergraduate certificates, associate, and bachelor’s tuition of $750 per course ($250 per credit hour) for eligible service members. A $180 resource fee may be waived for eligible undergraduate students using Department of Defense Tuition Assistance.",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.phoenix.edu/military.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "att",
+    "brand": "AT&T",
+    "category": "wireless",
+    "title": "AT&T Appreciation Savings",
+    "discount": "10% off AT&T Value 2.0, 15% off Extra 2.0, and 20% off Premium 2.0 plan lines, on up to 10 eligible phone lines. The military member must be the primary account holder.",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.att.com/offers/discount-program/military-discount/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "tmobile",
+    "brand": "T-Mobile",
+    "category": "wireless",
+    "title": "T-Mix with Military Savings",
+    "discount": "Discounted T-Mix plans (Saver, Standard, More, and Loaded) for eligible military customers. T-Mobile’s official page does not publish a single percentage off standard rates.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "reserve-guard",
+      "spouse-family",
+      "gold-star"
+    ],
+    "official_url": "https://www.t-mobile.com/cell-phone-plans/military-discount-plans",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "verizon",
+    "brand": "Verizon",
+    "category": "wireless",
+    "title": "Verizon military discounts",
+    "discount": "Official military discounts on wireless plans, Fios internet, and 25% off select accessories (online only). Verizon’s military homepage we reviewed does not publish a single percentage off every wireless plan, so we do not invent one.",
+    "eligibility": [
+      "active-duty",
+      "retiree",
+      "veteran",
+      "reserve-guard",
+      "gold-star"
+    ],
+    "official_url": "https://www.verizon.com/military/",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "nike",
+    "brand": "Nike",
+    "category": "apparel",
+    "title": "Nike military discount",
+    "discount": "10% off most items online and in U.S. Nike stores, applied to the first $500 of a qualified purchase",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.nike.com/help/a/military-discount",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "adidas",
+    "brand": "adidas",
+    "category": "apparel",
+    "title": "adidas Heroes discount",
+    "discount": "The official page is titled as a 30% off Heroes discount, available online, in-store, and at factory outlets after ID.me verification, subject to monthly caps and a long exclusion list",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "retiree",
+      "spouse-family"
+    ],
+    "official_url": "https://www.adidas.com/us/discount-programs",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "underarmour",
+    "brand": "Under Armour",
+    "category": "apparel",
+    "title": "Under Armour military and first-responder discount",
+    "discount": "20% off purchases on UA.com, the UA App, and UA Brand House; 10% at UA Factory House",
+    "eligibility": [
+      "active-duty",
+      "retiree",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.underarmour.com/en-us/t/troop-id-instructions.html",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "lululemon",
+    "brand": "lululemon",
+    "category": "apparel",
+    "title": "lululemon military discount",
+    "discount": "15% off purchases online and in-store on lululemon gear, including regular-price, We Made Too Much, and lululemon lab",
+    "eligibility": [
+      "active-duty",
+      "reserve-guard",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://shop.lululemon.com/story/military-faq",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "carhartt",
+    "brand": "Carhartt",
+    "category": "apparel",
+    "title": "Carhartt ID.me checkout discount",
+    "discount": "15% off the current order after ID.me validation online; the ID.me account can be reused on future Carhartt orders",
+    "eligibility": [
+      "active-duty",
+      "veteran"
+    ],
+    "official_url": "https://www.carhartt.com/discount-program",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "footlocker",
+    "brand": "Foot Locker",
+    "category": "apparel",
+    "title": "Foot Locker military discount",
+    "discount": "10% off most online and store purchases, limited to four SheerID verifications on a rolling 30-day basis and a $100 maximum military discount per verification",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "reserve-guard",
+      "spouse-family"
+    ],
+    "official_url": "https://help.footlocker.com/hc/en-us/articles/360034662813-Military-Discount-FAQ",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "nps",
+    "brand": "National Park Service",
+    "category": "parks",
+    "title": "America the Beautiful Military Passes",
+    "discount": "Free annual or lifetime pass covering entrance or standard amenity (day-use) fees at lands managed by NPS, BLM, Bureau of Reclamation, USFWS, USFS, and USACE",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "reserve-guard",
+      "spouse-family",
+      "gold-star"
+    ],
+    "official_url": "https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "linkedin",
+    "brand": "LinkedIn Premium",
+    "category": "education",
+    "title": "Complimentary 12-month LinkedIn Premium (military community offer)",
+    "discount": "One-time complimentary 12-month LinkedIn Premium subscription. After 12 months the subscription ends automatically. Codes are first-come, first-served and the program may reach capacity.",
+    "eligibility": [
+      "active-duty",
+      "veteran",
+      "spouse-family"
+    ],
+    "official_url": "https://www.linkedin.com/help/lms/answer/a518653/linkedin-for-veterans-free-premium-career-subscription-and-eligibility?lang=en-US",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "geappliances",
+    "brand": "GE Appliances",
+    "category": "home",
+    "title": "GE Appliances military and frontline store",
+    "discount": "Exclusive pricing in a private GE Appliances Store after ID.me verification, on appliances purchased through that store that are $99 or above. The official page captured November 18, 2026, does not state a percentage, so we do not invent one.",
+    "eligibility": [
+      "active-duty",
+      "veteran"
+    ],
+    "official_url": "https://www.geappliances.com/military-discount",
+    "verified_on": "2026-11-18"
+  }
+]
