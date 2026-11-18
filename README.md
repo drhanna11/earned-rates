@@ -2,7 +2,7 @@
 
 Static directory of verified military discounts. Built for GitHub Pages with no build server: plain HTML, CSS, and a small JavaScript filter.
 
-- Proposed public site: https://drhanna11.github.io/earned-rates/
+- Proposed public site: https://earnedrates.com/
 - Suggested GitHub repository: `earned-rates` (or `earned-rates.github.io` for a user/organization site at the root)
 - Verification pass in this batch: November 18, 2026 (America/Los_Angeles)
 
