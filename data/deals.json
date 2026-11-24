@@ -360,7 +360,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.snhu.edu/student-experience/military-student-experience/military-discounts-and-partnerships",
-    "verified_on": "2026-11-18"
+    "verified_on": "2026-11-23"
   },
   {
     "id": "phoenix",
@@ -370,12 +370,10 @@
     "discount": "Undergraduate certificates, associate, and bachelor’s tuition of $750 per course ($250 per credit hour) for eligible service members. A $180 resource fee may be waived for eligible undergraduate students using Department of Defense Tuition Assistance.",
     "eligibility": [
       "active-duty",
-      "reserve-guard",
-      "veteran",
-      "spouse-family"
+      "reserve-guard"
     ],
     "official_url": "https://www.phoenix.edu/military.html",
-    "verified_on": "2026-11-18"
+    "verified_on": "2026-11-23"
   },
   {
     "id": "att",
@@ -390,7 +388,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.att.com/offers/discount-program/military-discount/",
-    "verified_on": "2026-11-18"
+    "verified_on": "2026-11-23"
   },
   {
     "id": "tmobile",
@@ -406,7 +404,7 @@
       "gold-star"
     ],
     "official_url": "https://www.t-mobile.com/cell-phone-plans/military-discount-plans",
-    "verified_on": "2026-11-18"
+    "verified_on": "2026-11-23"
   },
   {
     "id": "verizon",
@@ -422,7 +420,7 @@
       "gold-star"
     ],
     "official_url": "https://www.verizon.com/military/",
-    "verified_on": "2026-11-18"
+    "verified_on": "2026-11-23"
   },
   {
     "id": "nike",
