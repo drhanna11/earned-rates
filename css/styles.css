@@ -385,14 +385,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   border-radius: 50%;
   background: var(--ok);
 }
-.todo-aff {
-  font-size: 0.78rem;
-  color: var(--muted);
-  background: var(--warn-bg);
-  border: 1px dashed #c9b98a;
-  border-radius: 4px;
-  padding: 0.35rem 0.5rem;
-}
 .disclosure-inline {
   font-size: 0.78rem;
   color: var(--muted);
