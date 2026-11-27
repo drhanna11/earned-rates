@@ -206,7 +206,7 @@
       "retiree"
     ],
     "official_url": "https://www.samsung.com/us/shop/offer-program/military/",
-    "verified_on": "2026-11-22"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "dell",
@@ -220,7 +220,7 @@
       "retiree"
     ],
     "official_url": "https://www.dell.com/en-us/shop/member/lp/heroes",
-    "verified_on": "2026-11-24"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "microsoft",
@@ -235,7 +235,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.microsoft.com/en-us/store/b/military",
-    "verified_on": "2026-11-24"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "hp",
@@ -249,7 +249,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.hp.com/us-en/shop/cv/hp-frontline-heroes",
-    "verified_on": "2026-11-22"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "toyota",
@@ -360,7 +360,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.lowes.com/l/about/honor-our-military",
-    "verified_on": "2026-11-22"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "snhu",
@@ -450,7 +450,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.nike.com/help/a/military-discount",
-    "verified_on": "2026-11-22"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "adidas",
@@ -465,7 +465,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.adidas.com/us/discount-programs",
-    "verified_on": "2026-11-25"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "underarmour",
@@ -480,7 +480,7 @@
       "spouse-family"
     ],
     "official_url": "https://www.underarmour.com/en-us/t/troop-id-instructions.html",
-    "verified_on": "2026-11-25"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "lululemon",
@@ -495,7 +495,7 @@
       "spouse-family"
     ],
     "official_url": "https://shop.lululemon.com/story/military-faq",
-    "verified_on": "2026-11-25"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "carhartt",
@@ -508,7 +508,7 @@
       "veteran"
     ],
     "official_url": "https://www.carhartt.com/discount-program",
-    "verified_on": "2026-11-25"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "footlocker",
@@ -523,7 +523,7 @@
       "spouse-family"
     ],
     "official_url": "https://help.footlocker.com/hc/en-us/articles/360034662813-Military-Discount-FAQ",
-    "verified_on": "2026-11-25"
+    "verified_on": "2026-11-26"
   },
   {
     "id": "nps",
@@ -560,12 +560,12 @@
     "brand": "GE Appliances",
     "category": "home",
     "title": "GE Appliances military and frontline store",
-    "discount": "Exclusive pricing in a private GE Appliances Store after ID.me verification, on appliances purchased through that store that are $99 or above. The official page, re-read November 25, 2026, does not state a percentage, so we do not invent one.",
+    "discount": "Exclusive pricing in a private GE Appliances Store after ID.me verification, on appliances purchased through that store that are $99 or above. The official page, re-read November 26, 2026, does not state a percentage, so we do not invent one.",
     "eligibility": [
       "active-duty",
       "veteran"
     ],
     "official_url": "https://www.geappliances.com/military-discount",
-    "verified_on": "2026-11-25"
+    "verified_on": "2026-11-26"
   }
 ]
